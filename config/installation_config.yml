@@ -5,7 +5,7 @@
 - name: LOGO_THUMBNAIL
   value: '/brand-assets/logo.jpg'
 - name: LOGO
-  value: '/brand-assets/logo.svg'
+  value: '/brand-assets/supportsquad.jpg'
 - name: BRAND_URL
   value: 'https://www.supportsquad.nl'
 - name: WIDGET_BRAND_URL
