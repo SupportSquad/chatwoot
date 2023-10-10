@@ -91,37 +91,37 @@
         "SELECT_PLACEHOLDER": "Geen",
         "INPUT_PLACEHOLDER": "Select priority",
         "NO_RESULTS": "Geen resultaten gevonden",
-        "SUCCESSFUL": "Changed priority of conversation id %{conversationId} to %{priority}",
-        "FAILED": "Couldn't change priority. Please try again."
+        "SUCCESSFUL": "Crioriteit van gespreks-ID %{conversationId} tot %{priority}",
+        "FAILED": "Kan de prioriteit niet wijzigen. Probeer het opnieuw."
       }
     },
     "CARD_CONTEXT_MENU": {
-      "PENDING": "Mark as pending",
-      "RESOLVED": "Mark as resolved",
-      "MARK_AS_UNREAD": "Mark as unread",
+      "PENDING": "Markeren als in behandeling",
+      "RESOLVED": "Markeer als opgelost",
+      "MARK_AS_UNREAD": "Markeren als ongelezen",
       "REOPEN": "Heropen gesprek",
       "SNOOZE": {
         "TITLE": "Snooze",
-        "NEXT_REPLY": "Until next reply",
-        "TOMORROW": "Until tomorrow",
-        "NEXT_WEEK": "Until next week"
+        "NEXT_REPLY": "Tot het volgende antwoord",
+        "TOMORROW": "Tot morgen",
+        "NEXT_WEEK": "Tot volgende week"
       },
-      "ASSIGN_AGENT": "Assign agent",
-      "ASSIGN_LABEL": "Assign label",
-      "AGENTS_LOADING": "Loading agents...",
-      "ASSIGN_TEAM": "Assign team",
+      "ASSIGN_AGENT": "Agent toewijzen",
+      "ASSIGN_LABEL": "Label toewijzen",
+      "AGENTS_LOADING": "Agenten laden...",
+      "ASSIGN_TEAM": "Team toewijzen",
       "API": {
         "AGENT_ASSIGNMENT": {
-          "SUCCESFUL": "Conversation id %{conversationId} assigned to \"%{agentName}\"",
-          "FAILED": "Couldn't assign agent. Please try again."
+          "SUCCESSFUL": "Conversationid %{conversationId} toegewezen aan \"%{agent Name}\"", 
+          "FAILED": "Kon agent niet toewijzen. Probeer het opnieuw."
         },
         "LABEL_ASSIGNMENT": {
-          "SUCCESFUL": "Assigned label #%{labelName} to conversation id %{conversationId}",
-          "FAILED": "Couldn't assign label. Please try again."
+          "SUCCESFUL": "Label #%{labelName} toegewezen aan gespreks-id %{conversationId}",
+          "FAILED": "Kan label niet toewijzen. Probeer het opnieuw."
         },
         "TEAM_ASSIGNMENT": {
-          "SUCCESFUL": "Assigned team \"%{team}\" to conversation id %{conversationId}",
-          "FAILED": "Couldn't assign team. Please try again."
+          "SUCCESFUL": "Team \"%{team}\" toegewezen aan gespreks-id %{conversationId}",
+          "FAILED": "Kan geen team toewijzen. Probeer het opnieuw."
         }
       }
     },
@@ -131,8 +131,8 @@
       "DISABLE_SIGN_TOOLTIP": "Disable signature",
       "MSG_INPUT": "Shift + enter voor nieuwe regel. Begin met '/' om een standaard antwoord te selecteren.",
       "PRIVATE_MSG_INPUT": "Shift + nieuwe regel invoeren. Dit is alleen zichtbaar voor medewerkers",
-      "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Message signature is not configured, please configure it in profile settings.",
-      "CLICK_HERE": "Click here to update"
+      "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Berichthandtekening is niet geconfigureerd, configureer deze in de profielinstellingen.",
+      "CLICK_HERE": "Klik hier om bij te werken"
     },
     "REPLYBOX": {
       "REPLY": "Beantwoorden",
@@ -140,28 +140,28 @@
       "SEND": "Verzenden",
       "CREATE": "Notitie toevoegen",
       "TWEET": "Tweet",
-      "TIP_FORMAT_ICON": "Show rich text editor",
-      "TIP_EMOJI_ICON": "Show emoji selector",
-      "TIP_ATTACH_ICON": "Attach files",
-      "TIP_AUDIORECORDER_ICON": "Record audio",
-      "TIP_AUDIORECORDER_PERMISSION": "Allow access to audio",
-      "TIP_AUDIORECORDER_ERROR": "Could not open the audio",
-      "DRAG_DROP": "Drag and drop here to attach",
-      "START_AUDIO_RECORDING": "Start audio recording",
-      "STOP_AUDIO_RECORDING": "Stop audio recording",
+      "TIP_FORMAT_ICON": "Rich-text-editor tonen",
+      "TIP_EMOJI_ICON": "Toon emoji-kiezer",
+      "TIP_ATTACH_ICON": "Bestanden bijvoegen",
+      "TIP_AUDIORECORDER_ICON": "Audio opnemen",
+      "TIP_AUDIORECORDER_PERMISSION": "Toegang tot audio toestaan",
+      "TIP_AUDIORECORDER_ERROR": "Kan de audio niet openen",
+      "DRAG_DROP": "Sleep en zet hier neer om bij te voegen",
+      "START_AUDIO_RECORDING": "Start audio-opname",
+      "STOP_AUDIO_RECORDING": "Audio-opname stoppen",
       "": "",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "Add bcc",
         "CC": {
           "LABEL": "CC",
-          "PLACEHOLDER": "Emails separated by commas",
-          "ERROR": "Please enter valid email addresses"
+          "PLACEHOLDER": "E-mails gescheiden door komma's",
+          "ERROR": "Voer geldige e-mailadressen in"
         },
         "BCC": {
           "LABEL": "BCC",
-          "PLACEHOLDER": "Emails separated by commas",
-          "ERROR": "Please enter valid email addresses"
+          "PLACEHOLDER": "E-mails gescheiden door komma's",
+          "ERROR": "Voer geldige e-mailadressen in"
         }
       },
       "UNDEFINED_VARIABLES": {
@@ -225,42 +225,42 @@
     }
   },
   "ONBOARDING": {
-    "TITLE": "Hey 👋, Welcome to %{installationName}!",
-    "DESCRIPTION": "Thanks for signing up. We want you to get the most out of %{installationName}. Here are a few things you can do in %{installationName} to make the experience delightful.",
-    "READ_LATEST_UPDATES": "Read our latest updates",
+    "TITLE": "Hé 👋, Welkom bij %{installationName}!",
+    "DESCRIPTION": "Bedankt voor uw aanmelding. We willen dat u het meeste uit %{installationName} haalt. Hier zijn een paar dingen die u kunt doen in %{installationName} om de ervaring verrukkelijk te maken.",
+    "READ_LATEST_UPDATES": "Lees onze laatste updates",
     "ALL_CONVERSATION": {
-      "TITLE": "All your conversations in one place",
-      "DESCRIPTION": "View all the conversations from your customers in one single dashboard. You can filter the conversations by the incoming channel, label and status."
+      "TITLE": "Al uw gesprekken op één plek",
+      "DESCRIPTION": "Bekijk alle gesprekken van uw klanten in één dashboard. U kunt de gesprekken filteren op binnenkomend kanaal, label en status."
     },
     "TEAM_MEMBERS": {
-      "TITLE": "Invite your team members",
-      "DESCRIPTION": "Since you are getting ready to talk to your customer, bring in your teammates to assist you. You can invite your teammates by adding their email addresses to the agent list.",
-      "NEW_LINK": "Click here to invite a team member"
+      "TITLE": "Nodig uw teamleden uit",
+      "DESCRIPTION": "Omdat u zich klaarmaakt om met uw klant te praten, kunt u uw teamgenoten inschakelen om u te helpen. U kunt uw teamgenoten uitnodigen door hun e-mailadressen toe te voegen aan de agentenlijst.",
+      "NEW_LINK": "Klik hier om een teamlid uit te nodigen"
     },
     "INBOXES": {
       "TITLE": "Connect Inboxes",
       "DESCRIPTION": "Connect various channels through which your customers would be talking to you. It can be a website live-chat, your Facebook or Twitter page or even your WhatsApp number.",
-      "NEW_LINK": "Click here to create an inbox"
+      "NEW_LINK": "Klik hier om een inbox te maken"
     },
     "LABELS": {
-      "TITLE": "Organize conversations with labels",
-      "DESCRIPTION": "Labels provide an easier way to categorize your conversation. Create some labels like #support-enquiry, #billing-question etc., so that you can use them in a conversation later.",
-      "NEW_LINK": "Click here to create tags"
+      "TITLE": "Gesprekken organiseren met labels",
+      "DESCRIPTION": "Labels bieden een eenvoudigere manier om uw gesprek te categoriseren. Maak een aantal labels zoals #ondersteuningsaanvraag, #factuurvraag etc., zodat u ze later in een gesprek kunt gebruiken.",
+      "NEW_LINK": "Klik hier om tags te maken"
     }
   },
   "CONVERSATION_SIDEBAR": {
-    "ASSIGNEE_LABEL": "Assigned Agent",
-    "SELF_ASSIGN": "Assign to me",
-    "TEAM_LABEL": "Assigned Team",
+    "ASSIGNEE_LABEL": "Toegewezen agent",
+    "SELF_ASSIGN": "Toewijzen aan mij",
+    "TEAM_LABEL": "Toegewezen team",
     "SELECT": {
       "PLACEHOLDER": "None"
     },
     "ACCORDION": {
-      "CONTACT_DETAILS": "Contact Details",
-      "CONVERSATION_ACTIONS": "Conversation Actions",
+      "CONTACT_DETAILS": "Contactgegevens",
+      "CONVERSATION_ACTIONS": "Gespreksacties",
       "CONVERSATION_LABELS": "Labels voor gesprekken",
-      "CONVERSATION_INFO": "Conversation Information",
-      "CONTACT_ATTRIBUTES": "Contact Attributes",
+      "CONVERSATION_INFO": "Gespreksinformatie",
+      "CONTACT_ATTRIBUTES": "Contactattributen",
       "PREVIOUS_CONVERSATION": "Vorige gesprekken",
       "MACROS": "Macros"
     }
@@ -294,27 +294,27 @@
     "SUBJECT": "Subject"
   },
   "CONVERSATION_PARTICIPANTS": {
-    "SIDEBAR_MENU_TITLE": "Participating",
-    "SIDEBAR_TITLE": "Conversation participants",
+    "SIDEBAR_MENU_TITLE": "Deelnemen",
+    "SIDEBAR_TITLE": "Deelnemers aan het gesprek",
     "NO_RECORDS_FOUND": "Geen resultaten gevonden",
-    "ADD_PARTICIPANTS": "Select participants",
-    "REMANING_PARTICIPANTS_TEXT": "+%{count} others",
-    "REMANING_PARTICIPANT_TEXT": "+%{count} other",
-    "TOTAL_PARTICIPANTS_TEXT": "%{count} people are participating.",
-    "TOTAL_PARTICIPANT_TEXT": "%{count} person is participating.",
-    "NO_PARTICIPANTS_TEXT": "No one is participating!.",
-    "WATCH_CONVERSATION": "Join conversation",
-    "YOU_ARE_WATCHING": "You are participating",
+    "ADD_PARTICIPANTS": "Selecteer deelnemers",
+    "REMANING_PARTICIPANTS_TEXT": "+%{count} anderen",
+    "REMANING_PARTICIPANT_TEXT": "+%{count} andere",
+    "TOTAL_PARTICIPANTS_TEXT": "%{count} mensen doen mee.",
+    "TOTAL_PARTICIPANT_TEXT": "%{count} persoon doet mee.",
+    "NO_PARTICIPANTS_TEXT": "Niemand doet mee!.",
+    "WATCH_CONVERSATION": "Deelnemen aan gesprek",
+    "YOU_ARE_WATCHING": "Je doet mee",
     "API": {
-      "ERROR_MESSAGE": "Could not update, try again!",
-      "SUCCESS_MESSAGE": "Participants updated!"
+      "ERROR_MESSAGE": "Kan niet updaten, probeer het opnieuw!",
+      "SUCCESS_MESSAGE": "Deelnemers bijgewerkt!"
     }
   },
   "TRANSLATE_MODAL": {
-    "TITLE": "View translated content",
-    "DESC": "You can view the translated content in each langauge.",
-    "ORIGINAL_CONTENT": "Original Content",
-    "TRANSLATED_CONTENT": "Translated Content",
-    "NO_TRANSLATIONS_AVAILABLE": "No translations are available for this content"
+    "TITLE": "Vertaalde inhoud bekijken",
+    "DESC": "U kunt de vertaalde inhoud in elke taal bekijken.",
+    "ORIGINAL_CONTENT": "Originele inhoud",
+    "TRANSLATED_CONTENT": "Vertaalde inhoud",
+    "NO_TRANSLATIONS_AVAILABLE": "Er zijn geen vertalingen beschikbaar voor deze inhoud"
   }
 }

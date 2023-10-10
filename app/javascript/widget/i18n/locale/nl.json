@@ -111,7 +111,7 @@
   "PORTAL": {
     "POPULAR_ARTICLES": "Populaire artikelen",
     "VIEW_ALL_ARTICLES": "Bekijk alle artikelen",
-    "IFRAME_LOAD_ERROR": "There was an error loading the article, please refresh the page and try again."
+    "IFRAME_LOAD_ERROR": "Er is een fout opgetreden bij het laden van het artikel. Vernieuw de pagina en probeer het opnieuw."
   },
   "ATTACHMENTS": {
     "image": {

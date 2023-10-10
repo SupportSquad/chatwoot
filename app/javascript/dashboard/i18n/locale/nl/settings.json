@@ -104,9 +104,9 @@
         "LABEL": "Profiel afbeelding"
       },
       "NAME": {
-        "LABEL": "Your full name",
-        "ERROR": "Please enter a valid full name",
-        "PLACEHOLDER": "Please enter your full name"
+        "LABEL": "Je volledige naam",
+        "ERROR": "Voer een geldige volledige naam in",
+        "PLACEHOLDER": "Vul alsjeblieft je volledige naam in"
       },
       "DISPLAY_NAME": {
         "LABEL": "Display name",
@@ -114,14 +114,14 @@
         "PLACEHOLDER": "Please enter a display name, this would be displayed in conversations"
       },
       "AVAILABILITY": {
-        "LABEL": "Availability",
+        "LABEL": "Beschikbaarheid",
         "STATUSES_LIST": [
           "Online",
           "Busy",
           "Offline"
         ],
-        "SET_AVAILABILITY_SUCCESS": "Availability has been set successfully",
-        "SET_AVAILABILITY_ERROR": "Couldn't set availability, please try again"
+        "SET_AVAILABILITY_SUCCESS": "Beschikbaarheid is succesvol ingesteld",
+        "SET_AVAILABILITY_ERROR": "Kan de beschikbaarheid niet instellen. Probeer het opnieuw"
       },
       "EMAIL": {
         "LABEL": "Uw e-mailadres",
@@ -129,27 +129,27 @@
         "PLACEHOLDER": "Voer je e-mailadres in, dit zou worden weergegeven in gesprekken"
       },
       "CURRENT_PASSWORD": {
-        "LABEL": "Current password",
-        "ERROR": "Please enter the current password",
+        "LABEL": "Huidig ​​wachtwoord",
+        "ERROR": "Voer het huidige wachtwoord in",
         "PLACEHOLDER": "Voer uw huidige wachtwoord in"
       },
       "PASSWORD": {
-        "LABEL": "New password",
+        "LABEL": "Nieuw Wachtwoord",
         "ERROR": "Voer een wachtwoord in van 6 of meer",
         "PLACEHOLDER": "Voer een nieuw wachtwoord in"
       },
       "PASSWORD_CONFIRMATION": {
         "LABEL": "Bevestig nieuw wachtwoord",
         "ERROR": "Bevestig wachtwoord moet overeenkomen met het wachtwoord",
-        "PLACEHOLDER": "Please re-enter your new password"
+        "PLACEHOLDER": "Voer alstublieft uw nieuwe wachtwoord opnieuw in"
       }
     }
   },
   "SIDEBAR_ITEMS": {
     "CHANGE_AVAILABILITY_STATUS": "Veranderen",
-    "CHANGE_ACCOUNTS": "Switch Account",
-    "CONTACT_SUPPORT": "Contact Support",
-    "SELECTOR_SUBTITLE": "Select an account from the following list",
+    "CHANGE_ACCOUNTS": "Verwissel van profiel",
+    "CONTACT_SUPPORT": "Contact opnemen met ondersteuning",
+    "SELECTOR_SUBTITLE": "Selecteer een account uit de volgende lijst",
     "PROFILE_SETTINGS": "Profiel instellingen",
     "KEYBOARD_SHORTCUTS": "Keyboard Shortcuts",
     "APPEARANCE": "Change Appearance",
@@ -162,13 +162,13 @@
     "DELETED_USER": "Deleted User",
     "ACCOUNT_SUSPENDED": {
       "TITLE": "Account Suspended",
-      "MESSAGE": "Your account is suspended. Please reach out to the support team for more information."
+      "MESSAGE": "Je account is geschorst. Neem contact op met het ondersteuningsteam voor meer informatie."
     }
   },
   "COMPONENTS": {
     "CODE": {
       "BUTTON_TEXT": "Kopiëren",
-      "CODEPEN": "Open in CodePen",
+      "CODEPEN": "Openen in CodePen",
       "COPY_SUCCESSFUL": "Code succesvol naar het klembord gekopieerd "
     },
     "SHOW_MORE_BLOCK": {
@@ -240,7 +240,7 @@
     "SET_AVAILABILITY_TITLE": "Set yourself as",
     "BETA": "Beta",
     "REPORTS_OVERVIEW": "Overview",
-    "FACEBOOK_REAUTHORIZE": "Your Facebook connection has expired, please reconnect your Facebook page to continue services",
+    "FACEBOOK_REAUTHORIZE": "Uw Facebook-verbinding is verlopen. Sluit uw Facebook-pagina opnieuw aan om door te gaan met de services",
     "HELP_CENTER": {
       "TITLE": "Help Center (Beta)",
       "ALL_ARTICLES": "All Articles",
@@ -253,7 +253,7 @@
     },
     "SET_AUTO_OFFLINE": {
       "TEXT": "Mark offline automatically",
-      "INFO_TEXT": "Let the system automatically mark you offline when you aren't using the app or dashboard."
+      "INFO_TEXT": "Laat het systeem u automatisch offline markeren wanneer u de app of het dashboard niet gebruikt."
     },
     "DOCS": "Read docs"
   },
@@ -261,29 +261,28 @@
     "TITLE": "Billing",
     "CURRENT_PLAN": {
       "TITLE": "Current Plan",
-      "PLAN_NOTE": "You are currently subscribed to the **%{plan}** plan with **%{quantity}** licenses"
+      "PLAN_NOTE": "U bent momenteel geabonneerd op het **%{plan}**-abonnement met **%{quantity}**-licenties"
     },
     "MANAGE_SUBSCRIPTION": {
-      "TITLE": "Manage your subscription",
-      "DESCRIPTION": "View your previous invoices, edit your billing details, or cancel your subscription.",
-      "BUTTON_TXT": "Go to the billing portal"
+      "TITLE": "Beheer je abonnement",
+      "DESCRIPTION": "Bekijk uw eerdere facturen, bewerk uw factuurgegevens of zeg uw abonnement op.",
+      "BUTTON_TXT": "Ga naar het facturatieportaal"
     },
     "CHAT_WITH_US": {
-      "TITLE": "Need help?",
-      "DESCRIPTION": "Do you face any issues in billing? We are here to help.",
+      "TITLE": "Hulp nodig?",
+      "DESCRIPTION": "Heeft u problemen met de facturatie? We zijn hier om te helpen.",
       "BUTTON_TXT": "Chat met ons"
     },
-    "NO_BILLING_USER": "Your billing account is being configured. Please refresh the page and try again."
+    "NO_BILLING_USER": "Uw factureringsaccount wordt geconfigureerd. Vernieuw de pagina en probeer het opnieuw."
   },
   "CREATE_ACCOUNT": {
-    "NO_ACCOUNT_WARNING": "Uh oh! We could not find any Chatwoot accounts. Please create a new account to continue.",
-    "NEW_ACCOUNT": "New Account",
-    "SELECTOR_SUBTITLE": "Create a new account",
+    "NO_ACCOUNT_WARNING": "Oh oh! We konden geen Chatwoot-accounts vinden. Maak een nieuw account aan om door te gaan.",
+    "NEW_ACCOUNT": "Nieuwe account",
+    "SELECTOR_SUBTITLE": "Maak een nieuw account",
     "API": {
       "SUCCESS_MESSAGE": "Account created successfully",
       "EXIST_MESSAGE": "Account already exists",
-      "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
-    },
+      "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"},
     "FORM": {
       "NAME": {
         "LABEL": "Bedrijfsnaam",
@@ -295,21 +294,21 @@
   "KEYBOARD_SHORTCUTS": {
     "TOGGLE_MODAL": "View all shortcuts",
     "TITLE": {
-      "OPEN_CONVERSATION": "Open conversation",
-      "RESOLVE_AND_NEXT": "Resolve and move to next",
-      "NAVIGATE_DROPDOWN": "Navigate dropdown items",
-      "RESOLVE_CONVERSATION": "Resolve Conversation",
-      "GO_TO_CONVERSATION_DASHBOARD": "Go to Conversation Dashboard",
-      "ADD_ATTACHMENT": "Add Attachment",
-      "GO_TO_CONTACTS_DASHBOARD": "Go to Contacts Dashboard",
-      "TOGGLE_SIDEBAR": "Toggle Sidebar",
-      "GO_TO_REPORTS_SIDEBAR": "Go to Reports sidebar",
-      "MOVE_TO_NEXT_TAB": "Move to next tab in conversation list",
-      "GO_TO_SETTINGS": "Go to Settings",
-      "SWITCH_CONVERSATION_STATUS": "Switch to the next conversation status",
-      "SWITCH_TO_PRIVATE_NOTE": "Switch to Private Note",
-      "SWITCH_TO_REPLY": "Switch to Reply",
-      "TOGGLE_SNOOZE_DROPDOWN": "Toggle snooze dropdown"
+      "OPEN_CONVERSATION": "Gesprek openen",
+      "RESOLVE_AND_NEXT": "Oplossen en naar volgende gaan",
+      "NAVIGATE_DROPDOWN": "Navigeer door dropdown-items",
+      "RESOLVE_CONVERSATION": "Gesprek oplossen",
+      "GO_TO_CONVERSATION_DASHBOARD": "Ga naar gespreksdashboard",
+      "ADD_ATTACHMENT": "Bijlage toevoegen",
+      "GO_TO_CONTACTS_DASHBOARD": "Ga naar Contactendashboard",
+      "TOGGLE_SIDEBAR": "Zijbalk in- en uitschakelen",
+      "GO_TO_REPORTS_SIDEBAR": "Ga naar de zijbalk Rapporten",
+      "MOVE_TO_NEXT_TAB": "Ga naar het volgende tabblad in de conversatielijst",
+      "GO_TO_SETTINGS": "Ga naar Instellingen",
+      "SWITCH_CONVERSATION_STATUS": "Overschakelen naar de volgende gespreksstatus",
+      "SWITCH_TO_PRIVATE_NOTE": "Overschakelen naar privénotitie",
+      "SWITCH_TO_REPLY": "Overschakelen naar antwoorden",
+      "TOGGLE_SNOOZE_DROPDOWN": "Vervolgkeuzelijst snooze inschakelen"
     },
     "KEYS": {
       "WINDOWS_KEY_AND_COMMAND_KEY": "Win / ⌘",

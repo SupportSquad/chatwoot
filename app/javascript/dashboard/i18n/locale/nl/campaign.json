@@ -1,65 +1,64 @@
 {
   "CAMPAIGN": {
     "HEADER": "Campagnes",
-    "SIDEBAR_TXT": "Proactive messages allow the customer to send outbound messages to their contacts which would trigger more conversations. Click on <b>Add Campaign</b> to create a new campaign. You can also edit or delete an existing campaign by clicking on the Edit or Delete button.",
+    "SIDEBAR_TXT": "Proactieve berichten stellen de klant in staat uitgaande berichten naar zijn contacten te sturen, wat tot meer gesprekken zou leiden. Klik op <b>Campagne toevoegen</b> om een nieuwe campagne te maken. U kunt een bestaande campagne ook bewerken of verwijderen door door op de knop Bewerken of Verwijderen te klikken.",
     "HEADER_BTN_TXT": {
       "ONE_OFF": "Creëer een eenmalige campagne",
       "ONGOING": "Creëer een lopende campagne"
     },
     "ADD": {
       "TITLE": "Creëer een campagne",
-      "DESC": "Proactive messages allow the customer to send outbound messages to their contacts which would trigger more conversations.",
-      "CANCEL_BUTTON_TEXT": "Annuleren",
+      "DESC": "Proactieve berichten stellen de klant in staat uitgaande berichten naar zijn contacten te sturen, wat tot meer gesprekken zou leiden.",      "CANCEL_BUTTON_TEXT": "Annuleren",
       "CREATE_BUTTON_TEXT": "Aanmaken",
       "FORM": {
         "TITLE": {
           "LABEL": "Titel",
-          "PLACEHOLDER": "Please enter the title of campaign",
-          "ERROR": "Title is required"
+          "PLACEHOLDER": "Voer de titel van de campagne in",
+          "ERROR": "Titel is vereist"
         },
         "SCHEDULED_AT": {
-          "LABEL": "Scheduled time",
-          "PLACEHOLDER": "Please select the time",
+          "LABEL": "Geplande tijd",
+          "PLACEHOLDER": "Selecteer de tijd",
           "CONFIRM": "Bevestigen",
-          "ERROR": "Scheduled time is required"
-        },
+          "ERROR": "Geplande tijd is vereist"
+          },
         "AUDIENCE": {
-          "LABEL": "Audience",
-          "PLACEHOLDER": "Select the customer labels",
-          "ERROR": "Audience is required"
+          "LABEL": "Publiek",
+          "PLACEHOLDER": "Selecteer de klantlabels",
+          "ERROR": "Publiek is vereist"
         },
         "INBOX": {
           "LABEL": "Selecteer een inbox",
           "PLACEHOLDER": "Selecteer een inbox",
-          "ERROR": "Inbox is required"
+          "ERROR": "Inbox is vereist"
         },
         "MESSAGE": {
           "LABEL": "Bericht",
-          "PLACEHOLDER": "Please enter the message of campaign",
-          "ERROR": "Message is required"
+          "PLACEHOLDER": "Voer het bericht van de campagne in",
+          "ERROR": "Bericht is vereist"
         },
         "SENT_BY": {
-          "LABEL": "Sent by",
-          "PLACEHOLDER": "Please select the the content of campaign",
-          "ERROR": "Sender is required"
+          "LABEL": "Verzonden door",
+          "PLACEHOLDER": "Selecteer de inhoud van de campagne",
+          "ERROR": "Afzender is vereist"
         },
         "END_POINT": {
           "LABEL": "URL",
-          "PLACEHOLDER": "Please enter the URL",
+          "PLACEHOLDER": "Voer de URL in",
           "ERROR": "Voer een geldige URL in"
         },
         "TIME_ON_PAGE": {
-          "LABEL": "Time on page(Seconds)",
-          "PLACEHOLDER": "Please enter the time",
-          "ERROR": "Time on page is required"
+          "LABEL": "Tijd op pagina (seconden)",
+          "PLACEHOLDER": "Voer de tijd in",
+          "ERROR": "Tijd op pagina is vereist"
         },
-        "ENABLED": "Enable campaign",
-        "TRIGGER_ONLY_BUSINESS_HOURS": "Trigger only during business hours",
-        "SUBMIT": "Add Campaign"
+        "ENABLED": "Campagne inschakelen",
+        "TRIGGER_ONLY_BUSINESS_HOURS": "Alleen activeren tijdens kantooruren",
+        "SUBMIT": "Campagne toevoegen"
       },
       "API": {
-        "SUCCESS_MESSAGE": "Campaign created successfully",
-        "ERROR_MESSAGE": "There was an error. Please try again."
+        "SUCCESS_MESSAGE": "Campagne succesvol gemaakt",
+        "ERROR_MESSAGE": "Er is een fout opgetreden. Probeer het opnieuw."
       }
     },
     "DELETE": {
@@ -71,21 +70,21 @@
         "NO": "Nee, Behouden "
       },
       "API": {
-        "SUCCESS_MESSAGE": "Campaign deleted successfully",
-        "ERROR_MESSAGE": "Could not delete the campaign. Please try again later."
+        "SUCCESS_MESSAGE": "Campagne succesvol verwijderd",
+        "ERROR_MESSAGE": "Kan de campagne niet verwijderen. Probeer het later opnieuw."
       }
     },
     "EDIT": {
       "TITLE": "Edit campaign",
       "UPDATE_BUTTON_TEXT": "Vernieuwen",
       "API": {
-        "SUCCESS_MESSAGE": "Campaign updated successfully",
+        "SUCCESS_MESSAGE": "Campagne succesvol bijgewerkt",
         "ERROR_MESSAGE": "Er is een fout opgetreden, probeer het opnieuw"
       }
     },
     "LIST": {
-      "LOADING_MESSAGE": "Loading campaigns...",
-      "404": "There are no campaigns created for this inbox.",
+      "LOADING MESSAGE": "Campagne laden...", 
+      "404": "Er zijn geen campagnes gemaakt voor deze inbox.",
       "TABLE_HEADER": {
         "TITLE": "Titel",
         "MESSAGE": "Bericht",
@@ -93,9 +92,9 @@
         "STATUS": "Status",
         "SENDER": "Sender",
         "URL": "URL",
-        "SCHEDULED_AT": "Scheduled time",
-        "TIME_ON_PAGE": "Time(Seconds)",
-        "CREATED_AT": "Created at"
+        "SCHEDULED_AT": "Geplande tijd",
+        "TIME_ON_PAGE": "Tijd (seconden)",
+        "CREATED_AT": "Gemaakt op"
       },
       "BUTTONS": {
         "ADD": "Toevoegen",
@@ -113,9 +112,9 @@
       }
     },
     "ONE_OFF": {
-      "HEADER": "One off campaigns",
-      "404": "There are no one off campaigns created",
-      "INBOXES_NOT_FOUND": "Please create an sms inbox and start adding campaigns"
+      "HEADER": "Eenmalige campagnes",
+      "404": "Er zijn geen eenmalige campagnes gemaakt",
+      "INBOXES_NOT_FOUND": "Maak een sms-inbox en begin met het toevoegen van campagnes"
     },
     "ONGOING": {
       "HEADER": "Ongoing campaigns",

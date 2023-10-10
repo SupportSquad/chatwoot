@@ -1,7 +1,7 @@
 {
   "INBOX_MGMT": {
     "HEADER": "Inboxen",
-    "SIDEBAR_TXT": "<p><b>Inbox</b></p> <p> When you connect a website or a facebook Page to Chatwoot, it is called an <b>Inbox</b>. You can have unlimited inboxes in your Chatwoot account. </p><p> Click on <b>Add Inbox</b> to connect a website or a Facebook Page. </p><p> In the Dashboard, you can see all the conversations from all your inboxes in a single place and respond to them under the `Conversations` tab. </p><p> You can also see conversations specific to an inbox by clicking on the inbox name on the left pane of the dashboard. </p>",
+    "SIDEBAR_TXT": "<p><b>Inbox</b></p> <p> Wanneer u een website of een Facebook-pagina verbindt met Chatwoot, wordt dit een <b>Inbox</b> genoemd. U kunt heb een onbeperkt aantal inboxen in uw Chatwoot-account. </p><p> Klik op <b>Inbox toevoegen</b> om een website of een Facebook-pagina te koppelen. </p><p> In het Dashboard kunt u alles zien de gesprekken uit al uw inboxen op één plek en beantwoord ze onder het tabblad 'Gesprekken'. </p><p> U kunt ook gesprekken zien die specifiek zijn voor een inbox door op de naam van de inbox in het linkerdeelvenster van het dashboard te klikken .</p>",
     "LIST": {
       "404": "Er zijn geen inboxen aan dit account gekoppeld."
     },
@@ -29,9 +29,9 @@
     ],
     "ADD": {
       "CHANNEL_NAME": {
-        "LABEL": "Inbox Name",
-        "PLACEHOLDER": "Enter your inbox name (eg: Acme Inc)",
-        "ERROR": "Please enter a valid inbox name"
+        "LABEL": "Naam van Postvak IN",
+        "PLACEHOLDER": "Voer de naam van uw inbox in (bijvoorbeeld: Acme Inc)",
+        "ERROR": "Voer een geldige inboxnaam in"
       },
       "WEBSITE_NAME": {
         "LABEL": "Website naam",
@@ -39,18 +39,18 @@
       },
       "FB": {
         "HELP": "PS: Door in te loggen krijgen we alleen toegang tot berichten van uw Pagina. Chatwood heeft nooit toegang tot je privéberichten.",
-        "CHOOSE_PAGE": "Choose Page",
-        "CHOOSE_PLACEHOLDER": "Select a page from the list",
-        "INBOX_NAME": "Inbox Name",
-        "ADD_NAME": "Add a name for your inbox",
-        "PICK_NAME": "Pick A Name Your Inbox",
-        "PICK_A_VALUE": "Pick a value"
+        "CHOOSE_PAGE": "Kies pagina",
+        "CHOOSE_PLACEHOLDER": "Selecteer een pagina uit de lijst",
+        "INBOX_NAME": "Naam van Postvak IN",
+        "ADD_NAME": "Voeg een naam toe voor uw inbox",
+        "PICK_NAME": "Kies een naam voor uw inbox",
+        "PICK_A_VALUE": "Kies een waarde"
       },
       "TWITTER": {
         "HELP": "Om uw Twitterprofiel als kanaal toe te voegen moet u uw Twitterprofiel verifiëren door te klikken op 'Meld je aan met Twitter' ",
-        "ERROR_MESSAGE": "There was an error connecting to Twitter, please try again",
+        "ERROR_MESSAGE": "Er is een fout opgetreden bij het verbinden met Twitter, probeer het opnieuw",
         "TWEETS": {
-          "ENABLE": "Create conversations from mentioned Tweets"
+          "ENABLE": "Maak gesprekken op basis van genoemde Tweets"
         }
       },
       "WEBSITE_CHANNEL": {
@@ -61,8 +61,8 @@
           "LABEL": "Channel Avatar"
         },
         "CHANNEL_WEBHOOK_URL": {
-          "LABEL": "Webhook URL",
-          "PLACEHOLDER": "Enter your Webhook URL",
+          "LABEL": "Webhook-URL",
+          "PLACEHOLDER": "Voer uw webhook-URL in",
           "ERROR": "Voer een geldige URL in"
         },
         "CHANNEL_DOMAIN": {
@@ -82,17 +82,17 @@
           "PLACEHOLDER": "Acme Inc reageert meestal binnen een paar uur."
         },
         "CHANNEL_GREETING_TOGGLE": {
-          "LABEL": "Enable channel greeting",
-          "HELP_TEXT": "Automatically send a greeting message when a new conversation is created.",
+          "LABEL": "Zenderbegroeting inschakelen",
+           "HELP_TEXT": "Verstuur automatisch een begroetingsbericht wanneer een nieuw gesprek wordt aangemaakt.",
           "ENABLED": "Ingeschakeld",
           "DISABLED": "Uitgeschakeld"
         },
         "REPLY_TIME": {
-          "TITLE": "Set Reply time",
-          "IN_A_FEW_MINUTES": "In a few minutes",
-          "IN_A_FEW_HOURS": "In a few hours",
-          "IN_A_DAY": "In a day",
-          "HELP_TEXT": "This reply time will be displayed on the live chat widget"
+          "TITLE": "Antwoordtijd instellen",
+           "IN_A_FEW_MINUTES": "Over een paar minuten",
+           "IN_A_FEW_HOURS": "Over een paar uur",
+           "IN_A_DAY": "Over een dag",
+           "HELP_TEXT": "Deze antwoordtijd wordt weergegeven in de live chatwidget"
         },
         "WIDGET_COLOR": {
           "LABEL": "Kleur van widget",
@@ -100,26 +100,25 @@
         },
         "SUBMIT_BUTTON": "Postvak in maken",
         "API": {
-          "ERROR_MESSAGE": "We were not able to create a website channel, please try again"
-        }
+          "ERROR_MESSAGE": "We konden geen websitekanaal maken, probeer het opnieuw"        }
       },
       "TWILIO": {
-        "TITLE": "Twilio SMS/WhatsApp Channel",
-        "DESC": "Integrate Twilio and start supporting your customers via SMS or WhatsApp.",
+        "TITLE": "Twilio SMS/WhatsApp-kanaal",
+         "DESC": "Integreer Twilio en begin uw klanten te ondersteunen via sms of WhatsApp.",
         "ACCOUNT_SID": {
           "LABEL": "Klant SID",
           "PLACEHOLDER": "Voer uw Twilio Account-ID in",
           "ERROR": "Dit veld is verplicht"
         },
         "API_KEY": {
-          "USE_API_KEY": "Use API Key Authentication",
-          "LABEL": "API Key SID",
-          "PLACEHOLDER": "Please enter your API Key SID",
+          "USE_API_KEY": "Gebruik API-sleutelauthenticatie",
+          "LABEL": "API-sleutel-SID",
+          "PLACEHOLDER": "Voer uw API-sleutel-SID in",
           "ERROR": "Dit veld is verplicht"
         },
         "API_KEY_SECRET": {
-          "LABEL": "API Key Secret",
-          "PLACEHOLDER": "Please enter your API Key Secret",
+          "LABEL": "API-sleutelgeheim",
+          "PLACEHOLDER": "Voer uw API-sleutelgeheim in",
           "ERROR": "Dit veld is verplicht"
         },
         "MESSAGING_SERVICE_SID": {
@@ -157,8 +156,8 @@
         }
       },
       "SMS": {
-        "TITLE": "SMS Channel",
-        "DESC": "Start supporting your customers via SMS.",
+        "TITLE": "SMS-kanaal",
+        "DESC": "Begin met het ondersteunen van uw klanten via sms.",
         "PROVIDERS": {
           "LABEL": "API Provider",
           "TWILIO": "Twilio",
@@ -467,75 +466,75 @@
     "SETTINGS": "Instellingen",
     "FEATURES": {
       "LABEL": "Features",
-      "DISPLAY_FILE_PICKER": "Display file picker on the widget",
-      "DISPLAY_EMOJI_PICKER": "Display emoji picker on the widget",
-      "ALLOW_END_CONVERSATION": "Allow users to end conversation from the widget",
-      "USE_INBOX_AVATAR_FOR_BOT": "Use inbox name and avatar for the bot"
+      "DISPLAY_FILE_PICKER": "Bestandskiezer weergeven op de widget",
+      "DISPLAY_EMOJI_PICKER": "Emoji-kiezer weergeven op de widget",
+      "ALLOW_END_CONVERSATION": "Gebruikers toestaan een gesprek te beëindigen vanuit de widget",
+      "USE_INBOX_AVATAR_FOR_BOT": "Gebruik inboxnaam en avatar voor de bot"
     },
     "SETTINGS_POPUP": {
       "MESSENGER_HEADING": "Messenger Script",
       "MESSENGER_SUB_HEAD": "Plaats deze knop in je lichaam tag",
       "INBOX_AGENTS": "Agenten",
       "INBOX_AGENTS_SUB_TEXT": "Voeg agenten toe of verwijder ze uit deze inbox",
-      "AGENT_ASSIGNMENT": "Conversation Assignment",
-      "AGENT_ASSIGNMENT_SUB_TEXT": "Update conversation assignment settings",
+      "AGENT_ASSIGNMENT": "Gespreksopdracht",
+      "AGENT_ASSIGNMENT_SUB_TEXT": "Instellingen voor gesprekstoewijzing bijwerken",
       "UPDATE": "Vernieuwen",
-      "ENABLE_EMAIL_COLLECT_BOX": "Enable email collect box",
-      "ENABLE_EMAIL_COLLECT_BOX_SUB_TEXT": "Enable or disable email collect box on new conversation",
+      "ENABLE EMAIL_COLLECT_BOX": "E-mailverzamelbox inschakelen", 
+      "ENABLE EMAIL_COLLECT_BOX_SUB_TEXT": "E-mailverzamelbox in- of uitschakelen bij nieuw gesprek",
       "AUTO_ASSIGNMENT": "Automatische toewijzing inschakelen",
       "ENABLE_CSAT": "Enable CSAT",
       "SENDER_NAME_SECTION": "Enable Agent Name in Email",
       "ENABLE_CSAT_SUB_TEXT": "Enable/Disable CSAT(Customer satisfaction) survey after resolving a conversation",
-      "SENDER_NAME_SECTION_TEXT": "Enable/Disable showing Agent's name in email, if disabled it will show business name",
-      "ENABLE_CONTINUITY_VIA_EMAIL": "Enable conversation continuity via email",
-      "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "Conversations will continue over email if the contact email address is available.",
-      "LOCK_TO_SINGLE_CONVERSATION": "Lock to single conversation",
-      "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "Enable or disable multiple conversations for the same contact in this inbox",
+      "SENDER_NAME_SECTION_TEXT": "Het weergeven van de naam van de agent in e-mail in-/uitschakelen. Indien uitgeschakeld wordt de bedrijfsnaam weergegeven",
+      "ENABLE_CONTINUITY_VIA_EMAIL": "Conversatiecontinuïteit via e-mail inschakelen",
+      "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "Gesprekken worden voortgezet via e-mail als het e-mailadres voor contact beschikbaar is.",
+      "LOCK_TO_SINGLE_CONVERSATION": "Vergrendelen voor één gesprek",
+      "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "Meerdere gesprekken voor hetzelfde contact in deze inbox in- of uitschakelen",
       "INBOX_UPDATE_TITLE": "Instellingen Postvak In",
       "INBOX_UPDATE_SUB_TEXT": "Update uw inbox instellingen",
       "AUTO_ASSIGNMENT_SUB_TEXT": "In- of uitschakelen van de automatische toewijzing van nieuwe gesprekken aan de agenten die aan deze inbox zijn toegevoegd.",
-      "HMAC_VERIFICATION": "User Identity Validation",
-      "HMAC_DESCRIPTION": "In order to validate the user's identity, you can pass an `identifier_hash` for each user. You can generate a HMAC sha256 hash using the `identifier` with the key shown here.",
+      "HMAC_VERIFICATION": "Verificatie van gebruikersidentiteit",
+      "HMAC_DESCRIPTION": "Om de identiteit van de gebruiker te valideren, kunt u voor elke gebruiker een `identifier_hash` doorgeven. U kunt een HMAC sha256-hash genereren met behulp van de `identifier` met de hier getoonde sleutel.",
       "HMAC_LINK_TO_DOCS": "You can read more here.",
       "HMAC_MANDATORY_VERIFICATION": "Enforce User Identity Validation",
       "HMAC_MANDATORY_DESCRIPTION": "If enabled, requests missing the `identifier_hash` will be rejected.",
       "INBOX_IDENTIFIER": "Inbox Identifier",
-      "INBOX_IDENTIFIER_SUB_TEXT": "Use the `inbox_identifier` token shown here to authentication your API clients.",
-      "FORWARD_EMAIL_TITLE": "Forward to Email",
-      "FORWARD_EMAIL_SUB_TEXT": "Start forwarding your emails to the following email address.",
-      "ALLOW_MESSAGES_AFTER_RESOLVED": "Allow messages after conversation resolved",
-      "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "Allow the end-users to send messages even after the conversation is resolved.",
-      "WHATSAPP_SECTION_SUBHEADER": "This API Key is used for the integration with the WhatsApp APIs.",
-      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "Enter the updated key to be used for the integration with the WhatsApp APIs.",
+      "INBOX_IDENTIFIER_SUB_TEXT": "Gebruik het `inbox_identifier` token dat hier wordt weergegeven om uw API-clients te authenticeren.",
+      "FORWARD_EMAIL_TITLE": "Doorsturen naar e-mail",
+      "FORWARD_EMAIL_SUB_TEXT": "Begin met het doorsturen van uw e-mails naar het volgende e-mailadres.",
+      "ALLOW_MESSAGES_AFTER_RESOLVED": "Berichten toestaan nadat het gesprek is opgelost",
+      "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "Laat de eindgebruikers berichten sturen, zelfs nadat het gesprek is opgelost.",
+      "WHATSAPP_SECTION_SUBHEADER": "Deze API-sleutel wordt gebruikt voor de integratie met de WhatsApp API's.",
+      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "Voer de bijgewerkte sleutel in die moet worden gebruikt voor de integratie met de WhatsApp API's.",
       "WHATSAPP_SECTION_TITLE": "API Key",
-      "WHATSAPP_SECTION_UPDATE_TITLE": "Update API Key",
-      "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "Enter the new API Key here",
+      "WHATSAPP_SECTION_UPDATE_TITLE": "API-sleutel bijwerken",
+       "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "Voer hier de nieuwe API-sleutel in",
       "WHATSAPP_SECTION_UPDATE_BUTTON": "Vernieuwen",
-      "WHATSAPP_WEBHOOK_TITLE": "Webhook Verify Token",
-      "WHATSAPP_WEBHOOK_SUBHEADER": "This token is used to verify the authenticity of the webhook endpoint.",
-      "UPDATE_PRE_CHAT_FORM_SETTINGS": "Update Pre Chat Form Settings"
+      "WHATSAPP_WEBHOOK_TITLE": "Webhook verificatietoken",
+      "WHATSAPP_WEBHOOK_SUBHEADER": "Dit token wordt gebruikt om de authenticiteit van het webhook-eindpunt te verifiëren.",
+      "UPDATE_PRE_CHAT_FORM_SETTINGS": "Pre-chatformulierinstellingen bijwerken"
     },
     "HELP_CENTER": {
-      "LABEL": "Help Center",
-      "PLACEHOLDER": "Select Help Center",
-      "SELECT_PLACEHOLDER": "Select Help Center",
-      "REMOVE": "Remove Help Center",
-      "SUB_TEXT": "Attach a Help Center with the inbox"
+      "LABEL": "Helpcentrum",
+      "PLACEHOLDER": "Selecteer Helpcentrum",
+      "SELECT_PLACEHOLDER": "Selecteer Helpcentrum",
+      "REMOVE": "Helpcentrum verwijderen",
+      "SUB_TEXT": "Voeg een Helpcentrum toe aan de inbox"
     },
     "AUTO_ASSIGNMENT": {
-      "MAX_ASSIGNMENT_LIMIT": "Auto assignment limit",
-      "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "Please enter a value greater than 0",
-      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "Limit the maximum number of conversations from this inbox that can be auto assigned to an agent"
+      "MAX_ASSIGNMENT_LIMIT": "Limiet voor automatische toewijzing",
+      "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "Voer een waarde in die groter is dan 0",
+      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "Beperk het maximale aantal gesprekken uit deze inbox dat automatisch aan een agent kan worden toegewezen"
     },
     "FACEBOOK_REAUTHORIZE": {
       "TITLE": "Autoriseer",
-      "SUBTITLE": "Your Facebook connection has expired, please reconnect your Facebook page to continue services",
-      "MESSAGE_SUCCESS": "Reconnection successful",
+      "SUBTITLE": "Uw Facebook-verbinding is verlopen. Maak opnieuw verbinding met uw Facebook-pagina om door te gaan met de services",
+      "MESSAGE_SUCCESS": "Opnieuw verbinden succesvol",
       "MESSAGE_ERROR": "Er is een fout opgetreden, probeer het opnieuw"
     },
     "PRE_CHAT_FORM": {
-      "DESCRIPTION": "Pre chat forms enable you to capture user information before they start conversation with you.",
-      "SET_FIELDS": "Pre chat form fields",
+      "DESCRIPTION": "Pre-chatformulieren stellen u in staat gebruikersinformatie vast te leggen voordat ze een gesprek met u beginnen.",
+      "SET_FIELDS": "Velden van pre-chatformulier",
       "SET_FIELDS_HEADER": {
         "FIELDS": "Fields",
         "LABEL": "Label",
@@ -545,48 +544,46 @@
         "REQUIRED": "Required"
       },
       "ENABLE": {
-        "LABEL": "Enable pre chat form",
+        "LABEL": "Pre-chatformulier inschakelen",
         "OPTIONS": {
           "ENABLED": "Yes",
           "DISABLED": "No"
         }
       },
       "PRE_CHAT_MESSAGE": {
-        "LABEL": "Pre chat message",
-        "PLACEHOLDER": "This message would be visible to the users along with the form"
-      },
+        "LABEL": "Pre-chatbericht",
+        "PLACEHOLDER": "Dit bericht zou samen met het formulier zichtbaar zijn voor de gebruikers"
+       },
       "REQUIRE_EMAIL": {
-        "LABEL": "Visitors should provide their name and email address before starting the chat"
-      }
+        "LABEL": "Bezoekers moeten hun naam en e-mailadres opgeven voordat ze de chat starten"
+       }
     },
     "BUSINESS_HOURS": {
-      "TITLE": "Set your availability",
-      "SUBTITLE": "Set your availability on your livechat widget",
-      "WEEKLY_TITLE": "Set your weekly hours",
-      "TIMEZONE_LABEL": "Select timezone",
-      "UPDATE": "Update business hours settings",
-      "TOGGLE_AVAILABILITY": "Enable business availability for this inbox",
-      "UNAVAILABLE_MESSAGE_LABEL": "Unavailable message for visitors",
-      "TOGGLE_HELP": "Enabling business availability will show the available hours on live chat widget even if all the agents are offline. Outside available hours vistors can be warned with a message and a pre-chat form.",
+      "TITLE": "Stel uw beschikbaarheid in",
+      "SUBTITLE": "Stel uw beschikbaarheid in op uw livechatwidget",
+      "WEEKLY_TITLE": "Stel uw wekelijkse uren in",
+      "TIMEZONE_LABEL": "Selecteer tijdzone",
+      "UPDATE": "Instellingen voor openingstijden bijwerken",
+      "TOGGLE_AVAILABILITY": "Zakelijke beschikbaarheid inschakelen voor deze inbox",
+      "UNAVAILABLE_MESSAGE_LABEL": "Onbeschikbaar bericht voor bezoekers",
+      "TOGGLE_HELP": "Als u de zakelijke beschikbaarheid inschakelt, worden de beschikbare uren in de livechatwidget weergegeven, zelfs als alle agenten offline zijn. Buiten de beschikbare uren kunnen bezoekers worden gewaarschuwd met een bericht en een pre-chatformulier.",
       "DAY": {
-        "ENABLE": "Enable availability for this day",
-        "UNAVAILABLE": "Unavailable",
+        "ENABLE": "Beschikbaarheid voor deze dag inschakelen",        "UNAVAILABLE": "Unavailable",
         "HOURS": "hours",
-        "VALIDATION_ERROR": "Starting time should be before closing time.",
-        "CHOOSE": "Choose"
+        "VALIDATION_ERROR": "De starttijd moet vóór sluitingstijd liggen.",        "CHOOSE": "Choose"
       },
       "ALL_DAY": "All-Day"
     },
     "IMAP": {
       "TITLE": "IMAP",
-      "SUBTITLE": "Set your IMAP details",
-      "NOTE_TEXT": "To enable SMTP, please configure IMAP.",
-      "UPDATE": "Update IMAP settings",
-      "TOGGLE_AVAILABILITY": "Enable IMAP configuration for this inbox",
-      "TOGGLE_HELP": "Enabling IMAP will help the user to recieve email",
+      "SUBTITLE": "Stel uw IMAP-gegevens in",
+      "NOTE_TEXT": "Om SMTP in te schakelen, configureert u IMAP.",
+      "UPDATE": "IMAP-instellingen bijwerken",
+      "TOGGLE_AVAILABILITY": "Schakel IMAP-configuratie in voor deze inbox",
+      "TOGGLE_HELP": "Het inschakelen van IMAP zal de gebruiker helpen e-mail te ontvangen",
       "EDIT": {
-        "SUCCESS_MESSAGE": "IMAP settings updated successfully",
-        "ERROR_MESSAGE": "Unable to update IMAP settings"
+        "SUCCESS_MESSAGE": "IMAP-instellingen zijn succesvol bijgewerkt",
+        "ERROR_MESSAGE": "Kan IMAP-instellingen niet bijwerken"
       },
       "ADDRESS": {
         "LABEL": "Address",
@@ -608,17 +605,16 @@
     },
     "MICROSOFT": {
       "TITLE": "Microsoft",
-      "SUBTITLE": "Reauthorize your MICROSOFT account"
-    },
+      "SUBTITLE": "Autoriseer uw MICROSOFT-account opnieuw"    },
     "SMTP": {
       "TITLE": "SMTP",
-      "SUBTITLE": "Set your SMTP details",
-      "UPDATE": "Update SMTP settings",
-      "TOGGLE_AVAILABILITY": "Enable SMTP configuration for this inbox",
-      "TOGGLE_HELP": "Enabling SMTP will help the user to send email",
+      "SUBTITLE": "Stel uw SMTP-gegevens in",
+      "UPDATE": "SMTP-instellingen bijwerken",
+      "TOGGLE_AVAILABILITY": "SMTP-configuratie inschakelen voor deze inbox",
+      "TOGGLE_HELP": "Het inschakelen van SMTP zal de gebruiker helpen e-mail te verzenden",
       "EDIT": {
-        "SUCCESS_MESSAGE": "SMTP settings updated successfully",
-        "ERROR_MESSAGE": "Unable to update SMTP settings"
+        "SUCCESS_MESSAGE": "SMTP-instellingen succesvol bijgewerkt",
+        "ERROR_MESSAGE": "Kan SMTP-instellingen niet bijwerken"
       },
       "ADDRESS": {
         "LABEL": "Address",
@@ -661,8 +657,7 @@
         "WEBSITE_NAME": {
           "LABEL": "Website naam",
           "PLACE_HOLDER": "Voer de naam van je website in (bv. Acme Inc)",
-          "ERROR": "Please enter a valid website name"
-        },
+          "ERROR": "Voer een geldige websitenaam in"        },
         "WELCOME_HEADING": {
           "LABEL": "Welkom op titel",
           "PLACE_HOLDER": "Hi there!"
@@ -672,10 +667,10 @@
           "PLACE_HOLDER": "We maken het eenvoudig om met ons te verbinden. Vraag ons iets of deel uw feedback."
         },
         "REPLY_TIME": {
-          "LABEL": "Reply Time",
-          "IN_A_FEW_MINUTES": "In a few minutes",
-          "IN_A_FEW_HOURS": "In a few hours",
-          "IN_A_DAY": "In a day"
+          "LABEL": "Antwoordtijd",
+          "IN_A_FEW_MINUTES": "Over een paar minuten",
+          "IN_A_FEW_HOURS": "Over een paar uur",
+          "IN_A_DAY": "Over een dag"
         },
         "WIDGET_COLOR_LABEL": "Kleur van widget",
         "WIDGET_BUBBLE_POSITION_LABEL": "Widget Bubble Position",
@@ -688,8 +683,8 @@
         "UPDATE": {
           "BUTTON_TEXT": "Update Widget Settings",
           "API": {
-            "SUCCESS_MESSAGE": "Widget settings updated successfully",
-            "ERROR_MESSAGE": "Unable to update widget settings"
+            "SUCCESS_MESSAGE": "Widgetinstellingen succesvol bijgewerkt",
+            "ERROR_MESSAGE": "Kan widgetinstellingen niet bijwerken"
           }
         },
         "WIDGET_VIEW_OPTION": {
@@ -715,12 +710,12 @@
         "IN_A_DAY": "Reageert meestal binnen een dag"
       },
       "FOOTER": {
-        "START_CONVERSATION_BUTTON_TEXT": "Start Chat",
+        "START_CONVERSATION_BUTTON_TEXT": "Chat starten",
         "CHAT_INPUT_PLACEHOLDER": "Typ uw bericht"
       },
       "BODY": {
         "TEAM_AVAILABILITY": {
-          "ONLINE": "We are Online",
+          "ONLINE": "Wij zijn online",
           "OFFLINE": "We zijn momenteel afwezig"
         },
         "USER_MESSAGE": "Hi",

@@ -1,32 +1,32 @@
 {
   "TEAMS_SETTINGS": {
-    "NEW_TEAM": "Create new team",
+    "NEW_TEAM": "Nieuw team aanmaken",
     "HEADER": "Teams",
-    "SIDEBAR_TXT": "<p><b>Teams</b></p> <p>Teams let you organize your agents into groups based on their responsibilities. <br /> An agent can be part of multiple teams. You can assign conversations to a team when you are working collaboratively. </p>",
+    "SIDEBAR_TXT": "<p><b>Teams</b></p> <p>Met teams kunt u uw agenten in groepen indelen op basis van hun verantwoordelijkheden. <br /> Een agent kan deel uitmaken van meerdere teams. U kunt gesprekken toewijzen aan een team wanneer u samenwerkt. </p>",
     "LIST": {
-      "404": "There are no teams created on this account.",
-      "EDIT_TEAM": "Edit team"
+      "404": "Er zijn geen teams aangemaakt op dit account.",
+      "EDIT_TEAM": "Bewerk team"
     },
     "CREATE_FLOW": {
       "CREATE": {
-        "TITLE": "Create a new team",
-        "DESC": "Add a title and description to your new team."
+        "TITLE": "Creëer een nieuw team",
+        "DESC": "Voeg een titel en beschrijving toe aan uw nieuwe team."
       },
       "AGENTS": {
-        "BUTTON_TEXT": "Add agents to team",
-        "TITLE": "Add agents to team - %{teamName}",
-        "DESC": "Add Agents to your newly created team. This lets you collaborate as a team on conversations, get notified on new events in the same conversation."
+        "BUTTON_TEXT": "Voeg agenten toe aan het team",
+        "TITLE": "Voeg agenten toe aan het team - %{teamName}",
+        "DESC": "Voeg agenten toe aan uw nieuw gemaakte team. Hierdoor kunt u als team samenwerken aan gesprekken en meldingen ontvangen over nieuwe gebeurtenissen in hetzelfde gesprek."
       },
       "WIZARD": [
         {
           "title": "Aanmaken",
           "route": "settings_teams_new",
-          "body": "Create a new team of agents."
+          "body": "Creëer een nieuw team van agenten."
         },
         {
           "title": "Agenten toevoegen",
           "route": "settings_teams_add_agents",
-          "body": "Add agents to the team."
+          "body": "Voeg agenten toe aan het team."
         },
         {
           "title": "Finish",
@@ -37,25 +37,25 @@
     },
     "EDIT_FLOW": {
       "CREATE": {
-        "TITLE": "Edit your team details",
-        "DESC": "Edit title and description to your team.",
+        "TITLE": "Bewerk uw teamgegevens",
+        "DESC": "Bewerk de titel en beschrijving voor uw team.",
         "BUTTON_TEXT": "Update team"
       },
       "AGENTS": {
-        "BUTTON_TEXT": "Update agents in team",
-        "TITLE": "Add agents to team - %{teamName}",
-        "DESC": "Add Agents to your newly created team. All the added agents will be notified when a conversation is assigned to this team."
+        "BUTTON_TEXT": "Update agenten in team",
+        "TITLE": "Voeg agenten toe aan het team - %{teamName}",
+        "DESC": "Voeg agenten toe aan uw nieuw gemaakte team. Alle toegevoegde agenten krijgen een melding wanneer een gesprek aan dit team wordt toegewezen."
       },
       "WIZARD": [
         {
           "title": "Team details",
           "route": "settings_teams_edit",
-          "body": "Change name, description and other details."
+          "body": "Wijzig naam, beschrijving en andere details."
         },
         {
           "title": "Edit Agents",
           "route": "settings_teams_edit_members",
-          "body": "Edit agents in your team."
+          "body": "Bewerk agenten in uw team."
         },
         {
           "title": "Finish",
@@ -65,41 +65,41 @@
       ]
     },
     "TEAM_FORM": {
-      "ERROR_MESSAGE": "Couldn't save the team details. Try again."
+      "ERROR_MESSAGE": "Kan de teamgegevens niet opslaan. Probeer het nog eens."
     },
     "AGENTS": {
       "AGENT": "AGENT",
       "EMAIL": "E-mailadres",
       "BUTTON_TEXT": "Voeg agenten toe",
-      "ADD_AGENTS": "Adding Agents to your Team...",
+      "ADD_AGENTS": "Agenten toevoegen aan uw team...",
       "SELECT": "select",
       "SELECT_ALL": "select all agents",
-      "SELECTED_COUNT": "%{selected} out of %{total} agents selected."
+      "SELECTED_COUNT": "%{selected} van %{total} geselecteerde agenten."
     },
     "ADD": {
       "TITLE": "Add agents to team - %{teamName}",
       "DESC": "Add Agents to your newly created team. This lets you collaborate as a team on conversations, get notified on new events in the same conversation.",
       "SELECT": "select",
       "SELECT_ALL": "select all agents",
-      "SELECTED_COUNT": "%{selected} out of %{total} agents selected.",
+      "SELECTED_COUNT": "%{selected} van %{total} geselecteerde agenten.",
       "BUTTON_TEXT": "Voeg agenten toe",
-      "AGENT_VALIDATION_ERROR": "Select at least one agent."
+      "AGENT_VALIDATION_ERROR": "Selecteer ten minste één agent."
     },
     "FINISH": {
-      "TITLE": "Your team is ready!",
-      "MESSAGE": "You can now collaborate as a team on conversations. Happy supporting ",
+      "TITLE": "Jouw team is er klaar voor!",
+      "MESSAGE": "U kunt nu als team samenwerken aan gesprekken. Gelukkig ondersteunen. ",
       "BUTTON_TEXT": "Finish"
     },
     "DELETE": {
       "BUTTON_TEXT": "Verwijderen",
       "API": {
-        "SUCCESS_MESSAGE": "Team deleted successfully.",
-        "ERROR_MESSAGE": "Couldn't delete the team. Try again."
+        "SUCCESS_MESSAGE": "Team succesvol verwijderd.",
+        "ERROR_MESSAGE": "Kan het team niet verwijderen. Probeer het nog eens."
       },
       "CONFIRM": {
-        "TITLE": "Are you sure want to delete - %{teamName}",
-        "PLACE_HOLDER": "Please type {teamName} to confirm",
-        "MESSAGE": "Deleting the team will remove the team assignment from the conversations assigned to this team.",
+        "TITLE": "Weet u zeker dat u wilt verwijderen - %{teamName}",
+        "PLACE_HOLDER": "Typ {teamName} om te bevestigen",
+        "MESSAGE": "Als u het team verwijdert, wordt de teamtoewijzing verwijderd uit de gesprekken die aan dit team zijn toegewezen.",
         "YES": "Verwijderen ",
         "NO": "Annuleren"
       }
@@ -113,13 +113,13 @@
         "PLACEHOLDER": "Example: Sales, Customer Support"
       },
       "DESCRIPTION": {
-        "LABEL": "Team Description",
-        "PLACEHOLDER": "Short description about this team."
+        "LABEL": "Team beschrijving",
+        "PLACEHOLDER": "Korte beschrijving over dit team."
       },
       "AUTO_ASSIGN": {
-        "LABEL": "Allow auto assign for this team."
+        "LABEL": "Automatische toewijzing toestaan voor dit team."
       },
-      "SUBMIT_CREATE": "Create team"
+      "SUBMIT_CREATE": "Maak een team"
     }
   }
 }

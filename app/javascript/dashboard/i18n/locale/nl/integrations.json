@@ -9,14 +9,14 @@
         "SUBSCRIPTIONS": {
           "LABEL": "Events",
           "EVENTS": {
-            "CONVERSATION_CREATED": "Conversation Created",
-            "CONVERSATION_STATUS_CHANGED": "Conversation Status Changed",
-            "CONVERSATION_UPDATED": "Conversation Updated",
-            "MESSAGE_CREATED": "Message created",
-            "MESSAGE_UPDATED": "Message updated",
-            "WEBWIDGET_TRIGGERED": "Live chat widget opened by the user",
-            "CONTACT_CREATED": "Contact created",
-            "CONTACT_UPDATED": "Contact updated"
+            "CONVERSATION_CREATED": "Gesprek gemaakt",
+            "CONVERSATION_STATUS_CHANGED": "Gespreksstatus gewijzigd",
+            "CONVERSATION_UPDATED": "Gesprek bijgewerkt",
+            "MESSAGE_CREATED": "Bericht gemaakt",
+            "MESSAGE_UPDATED": "Bericht bijgewerkt",
+            "WEBWIDGET_TRIGGERED": "Livechatwidget geopend door de gebruiker",
+            "CONTACT_CREATED": "Contact aangemaakt",
+            "CONTACT_UPDATED": "Contact bijgewerkt"
           }
         },
         "END_POINT": {
@@ -66,7 +66,7 @@
         },
         "CONFIRM": {
           "TITLE": "Verwijdering bevestigen",
-          "MESSAGE": "Are you sure to delete the webhook? (%{webhookURL})",
+          "MESSAGE": "Weet u zeker dat u de webhook wilt verwijderen? (%{webhookURL})",
           "YES": "Ja, verwijderen ",
           "NO": "Nee, Bewaar het"
         }
@@ -75,72 +75,72 @@
     "SLACK": {
       "DELETE": "Verwijderen",
       "DELETE_CONFIRMATION": {
-        "TITLE": "Delete the integration",
-        "MESSAGE": "Are you sure you want to delete the integration? Doing so will result in the loss of access to conversations on your Slack workspace."
+        "TITLE": "Verwijder de integratie",
+         "MESSAGE": "Weet u zeker dat u de integratie wilt verwijderen? Als u dit doet, verliest u de toegang tot gesprekken op uw Slack-werkruimte."
       },
       "HELP_TEXT": {
-        "TITLE": "Using Slack Integration",
-        "BODY": "<br/><p>Chatwoot will now sync all the incoming conversations into the <b><i>customer-conversations</i></b> channel inside your slack workplace.</p><p>Replying to a conversation thread in <b><i>customer-conversations</i></b> slack channel will create a response back to the customer through chatwoot.</p><p>Start the replies with <b><i>note:</i></b> to create private notes instead of replies.</p><p>If the replier on slack has an agent profile in chatwoot under the same email, the replies will be associated accordingly.</p><p>When the replier doesn't have an associated agent profile, the replies will be made from the bot profile.</p>",
+        "TITLE": "Slack-integratie gebruiken",
+         "BODY": "<br/><p>Chatwoot synchroniseert nu alle inkomende gesprekken met het kanaal <b><i>klantgesprekken</i></b> op uw rustige werkplek.</p>< p>Als u reageert op een gespreksthread in het slack-kanaal <b><i>klantgesprekken</i></b>, ontstaat er een reactie terug naar de klant via chatwoot.</p><p>Begin de antwoorden met < b><i>opmerking:</i></b> om privénotities te maken in plaats van antwoorden.</p><p>Als de antwoorder op slack een agentprofiel heeft in chatwoot onder dezelfde e-mail, worden de antwoorden dienovereenkomstig gekoppeld.</p><p>Als de antwoorder geen bijbehorend agentprofiel heeft, worden de antwoorden gemaakt vanuit het botprofiel.</p>",
         "SELECTED": "selected"
       },
       "SELECT_CHANNEL": {
-        "OPTION_LABEL": "Select a channel",
+        "OPTION_LABEL": "Selecteer een kanaal",
         "UPDATE": "Vernieuwen",
-        "BUTTON_TEXT": "Connect channel",
-        "DESCRIPTION": "Your Slack workspace is now linked with Chatwoot. However, the integration is currently inactive. To activate the integration and connect a channel to Chatwoot, please click the button below.\n\n**Note:** If you are attempting to connect a private channel, add the Chatwoot app to the Slack channel before proceeding with this step.",
-        "ATTENTION_REQUIRED": "Attention required",
-        "EXPIRED": "Your Slack integration has expired. To continue receiving messages on Slack, please delete the integration and connect your workspace again."
+        "BUTTON_TEXT": "Kanaal verbinden",
+         "DESCRIPTION": "Uw Slack-werkruimte is nu gekoppeld aan Chatwoot. De integratie is momenteel echter inactief. Om de integratie te activeren en een kanaal aan Chatwoot te koppelen, klikt u op de onderstaande knop.\n\n**Opmerking:** Als je probeert verbinding te maken met een privékanaal, voeg de Chatwoot-app toe aan het Slack-kanaal voordat je doorgaat met deze stap.",
+         "ATTENTION_REQUIRED": "Aandacht vereist",
+         "EXPIRED": "Uw Slack-integratie is verlopen. Als u berichten op Slack wilt blijven ontvangen, verwijdert u de integratie en maakt u opnieuw verbinding met uw werkruimte."
       },
-      "UPDATE_ERROR": "There was an error updating the integration, please try again",
-      "UPDATE_SUCCESS": "The channel is connected successfully",
-      "FAILED_TO_FETCH_CHANNELS": "There was an error fetching the channels from Slack, please try again"
+      "UPDATE_ERROR": "Er is een fout opgetreden bij het bijwerken van de integratie, probeer het opnieuw",
+       "UPDATE_SUCCESS": "Het kanaal is succesvol verbonden",
+       "FAILED_TO_FETCH_CHANNELS": "Er is een fout opgetreden bij het ophalen van de kanalen uit Slack, probeer het opnieuw"
     },
     "DYTE": {
-      "CLICK_HERE_TO_JOIN": "Click here to join",
-      "LEAVE_THE_ROOM": "Leave the room",
-      "START_VIDEO_CALL_HELP_TEXT": "Start a new video call with the customer",
-      "JOIN_ERROR": "There was an error joining the call, please try again",
-      "CREATE_ERROR": "There was an error creating a meeting link, please try again"
+      "CLICK_HERE_TO_JOIN": "Klik hier om mee te doen",
+      "LEAVE_THE_ROOM": "Verlaat de kamer",
+      "START_VIDEO_CALL_HELP_TEXT": "Start een nieuw videogesprek met de klant",
+      "JOIN_ERROR": "Er is een fout opgetreden bij het deelnemen aan het gesprek, probeer het opnieuw",
+      "CREATE_ERROR": "Er is een fout opgetreden bij het maken van een vergaderingslink, probeer het opnieuw"
     },
     "OPEN_AI": {
       "AI_ASSIST": "AI Assist",
       "WITH_AI": " %{option} with AI ",
       "OPTIONS": {
-        "REPLY_SUGGESTION": "Reply Suggestion",
-        "SUMMARIZE": "Summarize",
-        "REPHRASE": "Improve Writing",
-        "FIX_SPELLING_GRAMMAR": "Fix Spelling and Grammar",
-        "SHORTEN": "Shorten",
-        "EXPAND": "Expand",
-        "MAKE_FRIENDLY": "Change message tone to friendly",
-        "MAKE_FORMAL": "Use formal tone",
+        "REPLY_SUGGESTION": "Antwoordsuggestie",
+        "SUM_MARIZE": "Samenvatten",
+        "REPHRASE": "Schrijven verbeteren",
+        "FIX_SPELLING_GRAMMAR": "Spelling en grammatica corrigeren",
+        "SHORTEN": "Inkorten",
+        "EXPAND": "Uitbreiden",
+        "MAKE_FRIENDLY": "Wijzig de berichttoon in vriendelijk",
+        "MAKE_FORMAL": "Gebruik een formele toon",
         "SIMPLIFY": "Simplify"
       },
       "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "Draft content",
-        "GENERATED_TITLE": "Generated content",
-        "AI_WRITING": "AI is writing",
+        "DRAFT_TITLE": "Conceptinhoud",
+        "GENERATED_TITLE": "Gegenereerde inhoud",
+        "AI_WRITING": "AI is aan het schrijven",
         "BUTTONS": {
-          "APPLY": "Use this suggestion",
+          "APPLY": "Gebruik deze suggestie",
           "CANCEL": "Annuleren"
         }
       },
       "CTA_MODAL": {
-        "TITLE": "Integrate with OpenAI",
-        "DESC": "Bring advanced AI features to your dashboard with OpenAI's GPT models. To begin, enter the API key from your OpenAI account.",
-        "KEY_PLACEHOLDER": "Enter your OpenAI API key",
+        "TITLE": "Integreren met OpenAI",
+        "DESC": "Breng geavanceerde AI-functies naar uw dashboard met de GPT-modellen van OpenAI. Voer om te beginnen de API-sleutel van uw OpenAI-account in.",
+        "KEY_PLACEHOLDER": "Voer uw OpenAI API-sleutel in",
         "BUTTONS": {
           "NEED_HELP": "Need help?",
           "DISMISS": "Dismiss",
           "FINISH": "Finish Setup"
         },
-        "DISMISS_MESSAGE": "You can setup OpenAI integration later Whenever you want.",
-        "SUCCESS_MESSAGE": "OpenAI integration setup successfully"
+        "DISMISS_MESSAGE": "U kunt OpenAI-integratie later instellen wanneer u maar wilt.",
+        "SUCCESS_MESSAGE": "OpenAI-integratie succesvol ingesteld"
       },
-      "TITLE": "Improve With AI",
-      "SUMMARY_TITLE": "Summary with AI",
-      "REPLY_TITLE": "Reply suggestion with AI",
-      "SUBTITLE": "An improved reply will be generated using AI, based on your current draft.",
+      "TITLE": "Verbeteren met AI",
+       "SUMMARY_TITLE": "Samenvatting met AI",
+       "REPLY_TITLE": "Beantwoord suggestie met AI",
+       "SUBTITLE": "Er wordt een verbeterd antwoord gegenereerd met behulp van AI, gebaseerd op uw huidige concept.",
       "TONE": {
         "TITLE": "Tone",
         "OPTIONS": {
@@ -153,61 +153,60 @@
         "GENERATING": "Generating...",
         "CANCEL": "Annuleren"
       },
-      "GENERATE_ERROR": "There was an error processing the content, please try again"
+      "GENERATE_ERROR": "Er is een fout opgetreden bij het verwerken van de inhoud, probeer het opnieuw"
     },
     "DELETE": {
       "BUTTON_TEXT": "Verwijderen",
       "API": {
-        "SUCCESS_MESSAGE": "Integration deleted successfully"
-      }
+        "SUCCESS_MESSAGE": "Integratie succesvol verwijderd"      }
     },
     "CONNECT": {
       "BUTTON_TEXT": "Connect"
     },
     "DASHBOARD_APPS": {
-      "TITLE": "Dashboard Apps",
-      "HEADER_BTN_TXT": "Add a new dashboard app",
-      "SIDEBAR_TXT": "<p><b>Dashboard Apps</b></p><p>Dashboard Apps allow organizations to embed an application inside the Chatwoot dashboard to provide the context for customer support agents. This feature allows you to create an application independently and embed that inside the dashboard to provide user information, their orders, or their previous payment history.</p><p>When you embed your application using the dashboard in Chatwoot, your application will get the context of the conversation and contact as a window event. Implement a listener for the message event on your page to receive the context.</p><p>To add a new dashboard app, click on the button 'Add a new dashboard app'.</p>",
-      "DESCRIPTION": "Dashboard Apps allow organizations to embed an application inside the dashboard to provide the context for customer support agents. This feature allows you to create an application independently and embed that to provide user information, their orders, or their previous payment history.",
+      "TITLE": "Dashboard-apps",
+      "HEADER_BTN_TXT": "Een nieuwe dashboard-app toevoegen",
+      "SIDEBAR_TXT": "<p><b>Dashboard-apps</b></p><p>Dashboard-apps stellen organisaties in staat een applicatie in het Chatwoot-dashboard in te sluiten om de context te bieden aan klantenondersteuningsagenten. Met deze functie kunt u maak onafhankelijk een applicatie en sluit deze in het dashboard in om gebruikersinformatie, hun bestellingen of hun eerdere betalingsgeschiedenis te verstrekken.</p><p>Wanneer u uw applicatie insluit met behulp van het dashboard in Chatwoot, krijgt uw applicatie de context van de gesprek en contact als venstergebeurtenis. Implementeer een luisteraar voor de berichtgebeurtenis op uw pagina om de context te ontvangen.</p><p>Om een nieuwe dashboard-app toe te voegen, klikt u op de knop 'Een nieuwe dashboard-app toevoegen'.< /p>",
+      "DESCRIPTION": "Met Dashboard-apps kunnen organisaties een applicatie in het dashboard insluiten om de context te bieden voor klantenondersteuningsagenten. Met deze functie kunt u onafhankelijk een applicatie maken en die insluiten om gebruikersinformatie, hun bestellingen of hun eerdere betalingsgeschiedenis te verstrekken .",
       "LIST": {
-        "404": "There are no dashboard apps configured on this account yet",
-        "LOADING": "Fetching dashboard apps...",
+        "404": "Er zijn nog geen dashboard-apps geconfigureerd voor dit account",
+        "LOADING": "Dashboard-apps ophalen...",
         "TABLE_HEADER": [
           "Naam",
           "Endpoint"
         ],
-        "EDIT_TOOLTIP": "Edit app",
-        "DELETE_TOOLTIP": "Delete app"
+        "EDIT_TOOLTIP": "App bewerken",
+        "DELETE_TOOLTIP": "App verwijderen"
       },
       "FORM": {
         "TITLE_LABEL": "Naam",
-        "TITLE_PLACEHOLDER": "Enter a name for your dashboard app",
-        "TITLE_ERROR": "A name for the dashboard app is required",
+        "TITLE_PLACEHOLDER": "Voer een naam in voor uw dashboard-app",
+        "TITLE_ERROR": "Een naam voor de dashboard-app is vereist",
         "URL_LABEL": "Endpoint",
-        "URL_PLACEHOLDER": "Enter the endpoint URL where your app is hosted",
-        "URL_ERROR": "A valid URL is required"
+        "URL_PLACEHOLDER": "Voer de eindpunt-URL in waar uw app wordt gehost",
+        "URL_ERROR": "Een geldige URL is vereist"
       },
       "CREATE": {
-        "HEADER": "Add a new dashboard app",
+        "HEADER": "Een nieuwe dashboard-app toevoegen",
         "FORM_SUBMIT": "Bevestigen",
         "FORM_CANCEL": "Annuleren",
-        "API_SUCCESS": "Dashboard app configured successfully",
-        "API_ERROR": "We couldn't create an app. Please try again later"
+        "API_SUCCESS": "Dashboard-app succesvol geconfigureerd",
+        "API_ERROR": "We konden geen app maken. Probeer het later opnieuw"
       },
       "UPDATE": {
         "HEADER": "Edit dashboard app",
         "FORM_SUBMIT": "Vernieuwen",
         "FORM_CANCEL": "Annuleren",
-        "API_SUCCESS": "Dashboard app updated successfully",
-        "API_ERROR": "We couldn't update the app. Please try again later"
+        "API_SUCCESS": "Dashboard-app succesvol bijgewerkt",
+        "API_ERROR": "We konden de app niet updaten. Probeer het later opnieuw"
       },
       "DELETE": {
-        "CONFIRM_YES": "Yes, delete it",
-        "CONFIRM_NO": "No, keep it",
+        "CONFIRM_YES": "Ja, verwijder het",
+        "CONFIRM_NO": "Nee, hou het",
         "TITLE": "Verwijdering bevestigen",
-        "MESSAGE": "Are you sure to delete the app - %{appName}?",
-        "API_SUCCESS": "Dashboard app deleted successfully",
-        "API_ERROR": "We couldn't delete the app. Please try again later"
+        "MESSAGE": "Weet u zeker dat u de app - %{appName} wilt verwijderen?",
+        "API_SUCCESS": "Dashboard-app succesvol verwijderd",
+        "API_ERROR": "We konden de app niet verwijderen. Probeer het later opnieuw"
       }
     }
   }

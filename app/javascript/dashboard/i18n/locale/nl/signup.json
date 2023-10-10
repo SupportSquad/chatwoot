@@ -10,8 +10,8 @@
     },
     "COMPANY_NAME": {
       "LABEL": "Bedrijfsnaam",
-      "PLACEHOLDER": "Enter your company name. eg: Wayne Enterprises",
-      "ERROR": "Company name is too short"
+      "PLACEHOLDER": "Voer uw bedrijfsnaam in . eg: Wayne Enterprises",
+      "ERROR": "Bedrijfsnaam is te kort"
     },
     "FULL_NAME": {
       "LABEL": "Volledige naam",
@@ -21,13 +21,13 @@
     "EMAIL": {
       "LABEL": "Werk e-mail",
       "PLACEHOLDER": "Voer je werk-e-mailadres in, bijvoorbeeld: bruce@wayne.enterprises",
-      "ERROR": "Please enter a valid work email address"
+      "ERROR": "Voer een geldig zakelijk e-mailadres in"
     },
     "PASSWORD": {
       "LABEL": "Wachtwoord",
       "PLACEHOLDER": "Wachtwoord",
       "ERROR": "Wachtwoord is te kort",
-      "IS_INVALID_PASSWORD": "Password should contain atleast 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character"
+      "IS_INVALID_PASSWORD": "Het wachtwoord moet minimaal 1 hoofdletter, 1 kleine letter, 1 cijfer en 1 speciaal teken bevatten"
     },
     "CONFIRM_PASSWORD": {
       "LABEL": "Bevestig wachtwoord",
