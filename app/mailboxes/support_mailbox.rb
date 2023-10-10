@@ -9,7 +9,7 @@ class SupportMailbox < ApplicationMailbox
   def process
     # to turn off spam conversation creation
     return unless @account.active?
-    # prevent loop from chatwoot notification emails
+    # prevent loop from Support Hub notification emails
     return if notification_email_from_chatwoot?
 
     ActiveRecord::Base.transaction do

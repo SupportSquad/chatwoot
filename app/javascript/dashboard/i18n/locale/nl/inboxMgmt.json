@@ -1,7 +1,7 @@
 {
   "INBOX_MGMT": {
     "HEADER": "Inboxen",
-    "SIDEBAR_TXT": "<p><b>Inbox</b></p> <p> Wanneer u een website of een Facebook-pagina verbindt met Chatwoot, wordt dit een <b>Inbox</b> genoemd. U kunt heb een onbeperkt aantal inboxen in uw Chatwoot-account. </p><p> Klik op <b>Inbox toevoegen</b> om een website of een Facebook-pagina te koppelen. </p><p> In het Dashboard kunt u alles zien de gesprekken uit al uw inboxen op één plek en beantwoord ze onder het tabblad 'Gesprekken'. </p><p> U kunt ook gesprekken zien die specifiek zijn voor een inbox door op de naam van de inbox in het linkerdeelvenster van het dashboard te klikken .</p>",
+    "SIDEBAR_TXT": "<p><b>Inbox</b></p> <p> Wanneer u een website of een Facebook-pagina verbindt met Support Hub, wordt dit een <b>Inbox</b> genoemd. U kunt heb een onbeperkt aantal inboxen in uw Support Hub-account. </p><p> Klik op <b>Inbox toevoegen</b> om een website of een Facebook-pagina te koppelen. </p><p> In het Dashboard kunt u alles zien de gesprekken uit al uw inboxen op één plek en beantwoord ze onder het tabblad 'Gesprekken'. </p><p> U kunt ook gesprekken zien die specifiek zijn voor een inbox door op de naam van de inbox in het linkerdeelvenster van het dashboard te klikken .</p>",
     "LIST": {
       "404": "Er zijn geen inboxen aan dit account gekoppeld."
     },
@@ -9,7 +9,7 @@
       {
         "title": "Kies kanaal",
         "route": "settings_inbox_new",
-        "body": "Kies de aanbieder die je wilt integreren met Chatwoot."
+        "body": "Kies de aanbieder die je wilt integreren met Support Hub."
       },
       {
         "title": "Maak inbox",
@@ -339,7 +339,7 @@
       },
       "AUTH": {
         "TITLE": "Choose a channel",
-        "DESC": "Chatwoot supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below."
+        "DESC": "Support Hub supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below."
       },
       "AGENTS": {
         "TITLE": "Agenten",
@@ -353,7 +353,7 @@
       },
       "FINISH": {
         "TITLE": "Geïnstalleerd het!",
-        "DESC": "U heeft de integratie van uw Facebook-pagina met Chatwood succesvol voltooid. Volgende keer dat een klant uw pagina bericht, zal het gesprek automatisch in uw inbox verschijnen.<br>We bieden u ook een widget script aan, dat u eenvoudig aan uw website kunt toevoegen. Zodra dit live is op je website klanten kunnen vanaf uw website een bericht sturen zonder de hulp van een externe tool en het gesprek verschijnt hier op Chatwoot.<br>Koel, toch? Wel, proberen we zeker om te zijn :)"
+        "DESC": "U heeft de integratie van uw Facebook-pagina met Chatwood succesvol voltooid. Volgende keer dat een klant uw pagina bericht, zal het gesprek automatisch in uw inbox verschijnen.<br>We bieden u ook een widget script aan, dat u eenvoudig aan uw website kunt toevoegen. Zodra dit live is op je website klanten kunnen vanaf uw website een bericht sturen zonder de hulp van een externe tool en het gesprek verschijnt hier op Support Hub.<br>Koel, toch? Wel, proberen we zeker om te zijn :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "Select your email provider",
@@ -721,8 +721,8 @@
         "USER_MESSAGE": "Hi",
         "AGENT_MESSAGE": "Hello"
       },
-      "BRANDING_TEXT": "Mogelijk gemaakt door Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "Mogelijk gemaakt door Support Hub",
+      "SCRIPT_SETTINGS": "\n      window.supporthubSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

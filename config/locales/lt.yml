@@ -162,7 +162,7 @@ lt:
   integration_apps:
     dyte:
       name: "Dyte"
-      description: "Dyte yra įrankis, padedantis pridėti tiesioginį garso ir vaizdo įrašą prie programos naudojant tik kelias kodo eilutes. Ši integracija leidžia agentams suteikti galimybę užmegzti vaizdo arba balso skambutį su klientais nepaliekant Chatwoot."
+      description: "Dyte yra įrankis, padedantis pridėti tiesioginį garso ir vaizdo įrašą prie programos naudojant tik kelias kodo eilutes. Ši integracija leidžia agentams suteikti galimybę užmegzti vaizdo arba balso skambutį su klientais nepaliekant Support Hub."
       meeting_name: "%{agent_name} pradėjo susitikimą"
     slack:
       name: "Slack"

@@ -1,10 +1,10 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is the API documentation for Chatwoot server.",
+    "description": "This is the API documentation for Support Hub server.",
     "version": "1.0.0",
     "title": "Chatwoot",
-    "termsOfService": "https://www.chatwoot.com/terms-of-service/",
+    "termsOfService": "https://www.supportsquad.nl/voorwaarden-of-service/",
     "contact": {
       "email": "hello@chatwoot.com"
     },
@@ -13,7 +13,7 @@
       "url": "https://opensource.org/licenses/MIT"
     }
   },
-  "host": "app.chatwoot.com",
+  "host": "hub.supportsquad.nl",
   "basePath": "/",
   "schemes": [
     "https"
@@ -2810,7 +2810,7 @@
         ],
         "operationId": "newConversation",
         "summary": "Create New Conversation",
-        "description": "Creating a conversation in chatwoot requires a source id. \n\n Learn more about source_id: https://github.com/chatwoot/chatwoot/wiki/Building-on-Top-of-Chatwoot:-Importing-Existing-Contacts-and-Creating-Conversations",
+        "description": "Creating a conversation in Support Hub requires a source id. \n\n Learn more about source_id: https://github.com/chatwoot/chatwoot/wiki/Building-on-Top-of-Chatwoot:-Importing-Existing-Contacts-and-Creating-Conversations",
         "security": [
           {
             "userApiKey": [
@@ -5551,7 +5551,7 @@
             "busy",
             "offline"
           ],
-          "description": "The availability status of the agent computed by Chatwoot."
+          "description": "The availability status of the agent computed by Support Hub."
         },
         "auto_offline": {
           "type": "boolean",
@@ -5892,7 +5892,7 @@
         },
         "pubsub_token": {
           "type": "string",
-          "description": "The token to be used to connect to chatwoot websocket"
+          "description": "The token to be used to connect to Support Hub websocket"
         }
       }
     },
@@ -6421,7 +6421,7 @@
         "homepage_link": {
           "type": "string",
           "description": "link to main dashboard",
-          "example": "https://www.chatwoot.com/"
+          "example": "https://www.supportsquad.nl/"
         },
         "name": {
           "type": "string",
@@ -6992,7 +6992,7 @@
       "name": "source_id",
       "required": true,
       "type": "string",
-      "description": "Id of the session for which the conversation is created.\n\n\n\n Source Ids can be obtained through contactable inboxes API or via generated.<br/><br/>Website: Chatwoot generated string which can be obtained from webhook events. <br/> Phone Channels(Twilio): Phone number in e164 format <br/> Email Channels: Contact Email address <br/> API Channel: Any Random String"
+      "description": "Id of the session for which the conversation is created.\n\n\n\n Source Ids can be obtained through contactable inboxes API or via generated.<br/><br/>Website: Support Hub generated string which can be obtained from webhook events. <br/> Phone Channels(Twilio): Phone number in e164 format <br/> Email Channels: Contact Email address <br/> API Channel: Any Random String"
     },
     "contact_sort_param": {
       "in": "query",

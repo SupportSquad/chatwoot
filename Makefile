@@ -1,5 +1,5 @@
 # Variables
-APP_NAME := chatwoot
+APP_NAME :=SupportHub
 RAILS_ENV ?= development
 
 # Targets

@@ -276,7 +276,7 @@
     "NO_BILLING_USER": "Uw factureringsaccount wordt geconfigureerd. Vernieuw de pagina en probeer het opnieuw."
   },
   "CREATE_ACCOUNT": {
-    "NO_ACCOUNT_WARNING": "Oh oh! We konden geen Chatwoot-accounts vinden. Maak een nieuw account aan om door te gaan.",
+    "NO_ACCOUNT_WARNING": "Oh oh! We konden geen Support Hub-accounts vinden. Maak een nieuw account aan om door te gaan.",
     "NEW_ACCOUNT": "Nieuwe account",
     "SELECTOR_SUBTITLE": "Maak een nieuw account",
     "API": {

@@ -162,7 +162,7 @@ de:
   integration_apps:
     dyte:
       name: "Dyte"
-      description: "Dyte ist ein Tool, mit dem Sie Live-Audio & Video zu Ihrer Anwendung mit nur wenigen Zeilen Code hinzufügen können. Mit dieser Integration können Sie Ihren Agenten die Möglichkeit geben, einen Video- oder Sprachanruf mit Ihren Kunden zu führen, ohne Chatwoot zu verlassen."
+      description: "Dyte ist ein Tool, mit dem Sie Live-Audio & Video zu Ihrer Anwendung mit nur wenigen Zeilen Code hinzufügen können. Mit dieser Integration können Sie Ihren Agenten die Möglichkeit geben, einen Video- oder Sprachanruf mit Ihren Kunden zu führen, ohne Support Hub zu verlassen."
       meeting_name: "%{agent_name} hat ein Meeting begonnen"
     slack:
       name: "Slack"

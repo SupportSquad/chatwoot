@@ -5,7 +5,7 @@
       "SUBSCRIBED_EVENTS": "Subscribed Events",
       "FORM": {
         "CANCEL": "Annuleren",
-        "DESC": "Webhook events bieden je realtime informatie over wat er gebeurt in je Chatwoot account. Voer een geldige URL in om een callback te configureren.",
+        "DESC": "Webhook events bieden je realtime informatie over wat er gebeurt in je Support Hub account. Voer een geldige URL in om een callback te configureren.",
         "SUBSCRIPTIONS": {
           "LABEL": "Events",
           "EVENTS": {
@@ -33,7 +33,7 @@
       "HEADER_BTN_TXT": "Nieuwe webhook toevoegen",
       "LOADING": "Bijgevoegde webhooks ophalen",
       "SEARCH_404": "Er zijn geen items die overeenkomen met deze zoekopdracht",
-      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks zijn HTTP callbacks die voor elk account kunnen worden gedefinieerd. Ze worden geactiveerd door gebeurtenissen zoals het aanmaken van berichten in Chatwoot. Je kunt meer dan één webhook aanmaken voor dit account. <br /><br /> Voor het maken van een <b>webhook</b>, klik op de <b>Voeg nieuwe webhook</b> knop toe. U kunt ook alle bestaande webhook verwijderen door te klikken op de verwijderknop.</p>",
+      "SIDEBAR_TXT": "<p><b>Webhooks</b> </p> <p>Webhooks zijn HTTP callbacks die voor elk account kunnen worden gedefinieerd. Ze worden geactiveerd door gebeurtenissen zoals het aanmaken van berichten in Support Hub. Je kunt meer dan één webhook aanmaken voor dit account. <br /><br /> Voor het maken van een <b>webhook</b>, klik op de <b>Voeg nieuwe webhook</b> knop toe. U kunt ook alle bestaande webhook verwijderen door te klikken op de verwijderknop.</p>",
       "LIST": {
         "404": "Er zijn geen webhooks geconfigureerd voor dit account.",
         "TITLE": "Webhooks beheren",
@@ -80,14 +80,14 @@
       },
       "HELP_TEXT": {
         "TITLE": "Slack-integratie gebruiken",
-         "BODY": "<br/><p>Chatwoot synchroniseert nu alle inkomende gesprekken met het kanaal <b><i>klantgesprekken</i></b> op uw rustige werkplek.</p>< p>Als u reageert op een gespreksthread in het slack-kanaal <b><i>klantgesprekken</i></b>, ontstaat er een reactie terug naar de klant via chatwoot.</p><p>Begin de antwoorden met < b><i>opmerking:</i></b> om privénotities te maken in plaats van antwoorden.</p><p>Als de antwoorder op slack een agentprofiel heeft in chatwoot onder dezelfde e-mail, worden de antwoorden dienovereenkomstig gekoppeld.</p><p>Als de antwoorder geen bijbehorend agentprofiel heeft, worden de antwoorden gemaakt vanuit het botprofiel.</p>",
+         "BODY": "<br/><p>Support Hub synchroniseert nu alle inkomende gesprekken met het kanaal <b><i>klantgesprekken</i></b> op uw rustige werkplek.</p>< p>Als u reageert op een gespreksthread in het slack-kanaal <b><i>klantgesprekken</i></b>, ontstaat er een reactie terug naar de klant via Support Hub.</p><p>Begin de antwoorden met < b><i>opmerking:</i></b> om privénotities te maken in plaats van antwoorden.</p><p>Als de antwoorder op slack een agentprofiel heeft in Support Hub onder dezelfde e-mail, worden de antwoorden dienovereenkomstig gekoppeld.</p><p>Als de antwoorder geen bijbehorend agentprofiel heeft, worden de antwoorden gemaakt vanuit het botprofiel.</p>",
         "SELECTED": "selected"
       },
       "SELECT_CHANNEL": {
         "OPTION_LABEL": "Selecteer een kanaal",
         "UPDATE": "Vernieuwen",
         "BUTTON_TEXT": "Kanaal verbinden",
-         "DESCRIPTION": "Uw Slack-werkruimte is nu gekoppeld aan Chatwoot. De integratie is momenteel echter inactief. Om de integratie te activeren en een kanaal aan Chatwoot te koppelen, klikt u op de onderstaande knop.\n\n**Opmerking:** Als je probeert verbinding te maken met een privékanaal, voeg de Chatwoot-app toe aan het Slack-kanaal voordat je doorgaat met deze stap.",
+         "DESCRIPTION": "Uw Slack-werkruimte is nu gekoppeld aan Support Hub. De integratie is momenteel echter inactief. Om de integratie te activeren en een kanaal aan Support Hub te koppelen, klikt u op de onderstaande knop.\n\n**Opmerking:** Als je probeert verbinding te maken met een privékanaal, voeg de Support Hub-app toe aan het Slack-kanaal voordat je doorgaat met deze stap.",
          "ATTENTION_REQUIRED": "Aandacht vereist",
          "EXPIRED": "Uw Slack-integratie is verlopen. Als u berichten op Slack wilt blijven ontvangen, verwijdert u de integratie en maakt u opnieuw verbinding met uw werkruimte."
       },
@@ -166,7 +166,7 @@
     "DASHBOARD_APPS": {
       "TITLE": "Dashboard-apps",
       "HEADER_BTN_TXT": "Een nieuwe dashboard-app toevoegen",
-      "SIDEBAR_TXT": "<p><b>Dashboard-apps</b></p><p>Dashboard-apps stellen organisaties in staat een applicatie in het Chatwoot-dashboard in te sluiten om de context te bieden aan klantenondersteuningsagenten. Met deze functie kunt u maak onafhankelijk een applicatie en sluit deze in het dashboard in om gebruikersinformatie, hun bestellingen of hun eerdere betalingsgeschiedenis te verstrekken.</p><p>Wanneer u uw applicatie insluit met behulp van het dashboard in Chatwoot, krijgt uw applicatie de context van de gesprek en contact als venstergebeurtenis. Implementeer een luisteraar voor de berichtgebeurtenis op uw pagina om de context te ontvangen.</p><p>Om een nieuwe dashboard-app toe te voegen, klikt u op de knop 'Een nieuwe dashboard-app toevoegen'.< /p>",
+      "SIDEBAR_TXT": "<p><b>Dashboard-apps</b></p><p>Dashboard-apps stellen organisaties in staat een applicatie in het Support Hub-dashboard in te sluiten om de context te bieden aan klantenondersteuningsagenten. Met deze functie kunt u maak onafhankelijk een applicatie en sluit deze in het dashboard in om gebruikersinformatie, hun bestellingen of hun eerdere betalingsgeschiedenis te verstrekken.</p><p>Wanneer u uw applicatie insluit met behulp van het dashboard in Support Hub, krijgt uw applicatie de context van de gesprek en contact als venstergebeurtenis. Implementeer een luisteraar voor de berichtgebeurtenis op uw pagina om de context te ontvangen.</p><p>Om een nieuwe dashboard-app toe te voegen, klikt u op de knop 'Een nieuwe dashboard-app toevoegen'.< /p>",
       "DESCRIPTION": "Met Dashboard-apps kunnen organisaties een applicatie in het dashboard insluiten om de context te bieden voor klantenondersteuningsagenten. Met deze functie kunt u onafhankelijk een applicatie maken en die insluiten om gebruikersinformatie, hun bestellingen of hun eerdere betalingsgeschiedenis te verstrekken .",
       "LIST": {
         "404": "Er zijn nog geen dashboard-apps geconfigureerd voor dit account",
