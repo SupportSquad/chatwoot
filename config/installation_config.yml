@@ -3,7 +3,7 @@
 - name: INSTALLATION_NAME
   value: 'Support Hub'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail.svg'
+  value: '/brand-assets/logo.jpg'
 - name: LOGO
   value: '/brand-assets/logo.svg'
 - name: BRAND_URL
