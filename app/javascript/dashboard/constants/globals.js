@@ -28,6 +28,7 @@ export default {
     EXPANDED: 'expanded',
   },
   DOCS_URL: '//www.supportsquad.nl/docs/product/',
+  HELP_CENTER_DOCS_URL: '//www.supportsquad.nl/docs/product/others/help-center',
   TESTIMONIAL_URL: 'https://testimonials.cdn.supportsquad.nl/content.json',
   SMALL_SCREEN_BREAKPOINT: 1024,
   AVAILABILITY_STATUS_KEYS: ['online', 'busy', 'offline'],
