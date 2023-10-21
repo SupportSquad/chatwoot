@@ -17,9 +17,9 @@
         "body": "Verifieer je account en maak een inbox."
       },
       {
-        "title": "Agenten toevoegen",
+        "title": "Agents toevoegen",
         "route": "settings_inboxes_add_agents",
-        "body": "Voeg agenten toe aan de aangemaakte inbox."
+        "body": "Voeg Agents toe aan de aangemaakte inbox."
       },
       {
         "title": "Voila!",
@@ -342,8 +342,8 @@
         "DESC": "Support Hub supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below."
       },
       "AGENTS": {
-        "TITLE": "Agenten",
-        "DESC": "Hier kunt u agenten toevoegen om uw nieuw gecreëerde inbox te beheren. Alleen deze agenten hebben toegang tot uw inbox. Agents die geen deel uitmaken van dit postvak in zullen niet in staat zijn om berichten in dit postvak te zien of te reageren wanneer ze inloggen. <br> <b>PS:</b> Als beheerder als u toegang wilt krijgen tot alle inboxen, voeg jezelf toe als agent aan alle inboxen die je maakt.",
+        "TITLE": "Agents",
+        "DESC": "Hier kunt u Agents toevoegen om uw nieuw gecreëerde inbox te beheren. Alleen deze Agents hebben toegang tot uw inbox. Agents die geen deel uitmaken van dit postvak in zullen niet in staat zijn om berichten in dit postvak te zien of te reageren wanneer ze inloggen. <br> <b>PS:</b> Als beheerder als u toegang wilt krijgen tot alle inboxen, voeg jezelf toe als agent aan alle inboxen die je maakt.",
         "VALIDATION_ERROR": "Add atleast one agent to your new Inbox",
         "PICK_AGENTS": "Pick agents for the inbox"
       },
@@ -375,14 +375,14 @@
       "DESC": ""
     },
     "AGENTS": {
-      "BUTTON_TEXT": "Voeg agenten toe",
+      "BUTTON_TEXT": "Voeg Agents toe",
       "ADD_AGENTS": "Agents toevoegen aan uw Postvak IN..."
     },
     "FINISH": {
       "TITLE": "Uw postvak is klaar!",
       "MESSAGE": "Je kunt nu contact opnemen met je klanten via het nieuwe Kanaal. Gelukkige ondersteuning",
       "BUTTON_TEXT": "Breng me ernaar toe",
-      "MORE_SETTINGS": "More settings",
+      "MORE_SETTINGS": "Meer instellingen",
       "WEBSITE_SUCCESS": "Het aanmaken van een website kanaal is gelukt. Kopieer de code hieronder weergegeven en plak deze op uw website. De volgende keer dat een klant de live chat gebruikt, verschijnt het gesprek automatisch op uw inbox."
     },
     "REAUTH": "Autoriseer",
@@ -474,8 +474,8 @@
     "SETTINGS_POPUP": {
       "MESSENGER_HEADING": "Messenger Script",
       "MESSENGER_SUB_HEAD": "Plaats deze knop in je lichaam tag",
-      "INBOX_AGENTS": "Agenten",
-      "INBOX_AGENTS_SUB_TEXT": "Voeg agenten toe of verwijder ze uit deze inbox",
+      "INBOX_AGENTS": "Agents",
+      "INBOX_AGENTS_SUB_TEXT": "Voeg Agents toe of verwijder ze uit deze inbox",
       "AGENT_ASSIGNMENT": "Gespreksopdracht",
       "AGENT_ASSIGNMENT_SUB_TEXT": "Instellingen voor gesprekstoewijzing bijwerken",
       "UPDATE": "Vernieuwen",
@@ -492,7 +492,7 @@
       "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "Meerdere gesprekken voor hetzelfde contact in deze inbox in- of uitschakelen",
       "INBOX_UPDATE_TITLE": "Instellingen Postvak In",
       "INBOX_UPDATE_SUB_TEXT": "Update uw inbox instellingen",
-      "AUTO_ASSIGNMENT_SUB_TEXT": "In- of uitschakelen van de automatische toewijzing van nieuwe gesprekken aan de agenten die aan deze inbox zijn toegevoegd.",
+      "AUTO_ASSIGNMENT_SUB_TEXT": "In- of uitschakelen van de automatische toewijzing van nieuwe gesprekken aan de Agents die aan deze inbox zijn toegevoegd.",
       "HMAC_VERIFICATION": "Verificatie van gebruikersidentiteit",
       "HMAC_DESCRIPTION": "Om de identiteit van de gebruiker te valideren, kunt u voor elke gebruiker een `identifier_hash` doorgeven. U kunt een HMAC sha256-hash genereren met behulp van de `identifier` met de hier getoonde sleutel.",
       "HMAC_LINK_TO_DOCS": "You can read more here.",
@@ -566,7 +566,7 @@
       "UPDATE": "Instellingen voor openingstijden bijwerken",
       "TOGGLE_AVAILABILITY": "Zakelijke beschikbaarheid inschakelen voor deze inbox",
       "UNAVAILABLE_MESSAGE_LABEL": "Onbeschikbaar bericht voor bezoekers",
-      "TOGGLE_HELP": "Als u de zakelijke beschikbaarheid inschakelt, worden de beschikbare uren in de livechatwidget weergegeven, zelfs als alle agenten offline zijn. Buiten de beschikbare uren kunnen bezoekers worden gewaarschuwd met een bericht en een pre-chatformulier.",
+      "TOGGLE_HELP": "Als u de zakelijke beschikbaarheid inschakelt, worden de beschikbare uren in de livechatwidget weergegeven, zelfs als alle Agents offline zijn. Buiten de beschikbare uren kunnen bezoekers worden gewaarschuwd met een bericht en een pre-chatformulier.",
       "DAY": {
         "ENABLE": "Beschikbaarheid voor deze dag inschakelen",        "UNAVAILABLE": "Unavailable",
         "HOURS": "hours",
@@ -649,7 +649,7 @@
           "LABEL": "Website Avatar",
           "DELETE": {
             "API": {
-              "SUCCESS_MESSAGE": "Avatar deleted successfully",
+              "SUCCESS_MESSAGE": "Avatar is succesvol verwijderd",
               "ERROR_MESSAGE": "Er is een fout opgetreden, probeer het opnieuw"
             }
           }
@@ -660,7 +660,7 @@
           "ERROR": "Voer een geldige websitenaam in"        },
         "WELCOME_HEADING": {
           "LABEL": "Welkom op titel",
-          "PLACE_HOLDER": "Hi there!"
+          "PLACE_HOLDER": "titel"
         },
         "WELCOME_TAGLINE": {
           "LABEL": "Welkom Tagline",
@@ -673,7 +673,7 @@
           "IN_A_DAY": "Over een dag"
         },
         "WIDGET_COLOR_LABEL": "Kleur van widget",
-        "WIDGET_BUBBLE_POSITION_LABEL": "Widget Bubble Position",
+        "WIDGET_BUBBLE_POSITION_LABEL": "Widget Bubble Positie",
         "WIDGET_BUBBLE_TYPE_LABEL": "Widget Bubble Type",
         "WIDGET_BUBBLE_LAUNCHER_TITLE": {
           "DEFAULT": "Chat met ons",
@@ -681,7 +681,7 @@
           "PLACE_HOLDER": "Chat met ons"
         },
         "UPDATE": {
-          "BUTTON_TEXT": "Update Widget Settings",
+          "BUTTON_TEXT": "Update widget instellingen",
           "API": {
             "SUCCESS_MESSAGE": "Widgetinstellingen succesvol bijgewerkt",
             "ERROR_MESSAGE": "Kan widgetinstellingen niet bijwerken"
