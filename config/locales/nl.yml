@@ -142,7 +142,7 @@ nl:
       greeting_message_body: "%{account_name} reageert meestal binnen een paar uur."
       ways_to_reach_you_message_body: "Geef het team een manier om je te bereiken."
       email_input_box_message_body: "Ontvang een melding via e-mail"
-      csat_input_message_body: "Please rate the conversation"
+      csat_input_message_body: "Beoordeel het gesprek"
     reply:
       email:
         header:
@@ -154,36 +154,36 @@ nl:
         header:
           reply_with_name: "%{assignee_name} from %{inbox_name} <%{from_email}>"
           reply_with_inbox_name: "%{inbox_name} <%{from_email}>"
-      email_subject: "New messages on this conversation"
-      transcript_subject: "Conversation Transcript"
+      email_subject: "Nieuwe berichten over dit gesprek"
+      transcript_subject: "Transcript van het gesprek"
     survey:
       response: "Beoordeel het gesprek, %{link}"
   contacts:
     online:
-      delete: "%{contact_name} is Online, please try again later"
+      delete: "%{contact_name} is online, probeer het later opnieuw"
   integration_apps:
     dyte:
       name: "Dyte"
-      description: "Dyte is tool that helps you to add live audio & video to your application with just a few lines of code. This integration allows you to give an option to your agents to have a video or voice call with your customers from without leaving Support Hub."
+      description: "Dyte is een tool waarmee u met slechts een paar regels code live audio en video aan uw applicatie kunt toevoegen. Met deze integratie kunt u uw agenten de optie geven om een video- of spraakgesprek met uw klanten te voeren zonder de Support Hub te verlaten."
       meeting_name: "%{agent_name} has started a meeting"
     slack:
       name: "Slack"
-      description: "Slack is a chat tool that brings all your communication together in one place. By integrating Slack, you can get notified of all the new conversations in your account right inside your Slack."
+      description: "Slack is een chattool die al je communicatie op één plek samenbrengt. Door Slack te integreren, kunt u rechtstreeks in uw Slack op de hoogte worden gehouden van alle nieuwe gesprekken in uw account."
     webhooks:
       name: "Webhooks"
-      description: "Webhook events provide you the realtime information about what's happening in your account. You can make use of the webhooks to communicate the events to your favourite apps like Slack or Github. Click on Configure to set up your webhooks."
+      description: "Webhook-evenementen bieden u realtime informatie over wat er in uw account gebeurt. U kunt gebruik maken van de webhooks om de gebeurtenissen te communiceren met uw favoriete apps zoals Slack of Github. Klik op Configureren om uw webhooks in te stellen."
     dialogflow:
       name: "Dialogflow"
-      description: "Build chatbots using Dialogflow and connect them to your inbox quickly. Let the bots handle the queries before handing them off to a customer service agent."
+      description: "Bouw chatbots met Dialogflow en koppel ze snel aan je inbox. Laat de bots de vragen afhandelen voordat u ze doorgeeft aan een medewerker van de klantenservice."
     fullcontact:
       name: "Fullcontact"
-      description: "FullContact integration helps to enrich visitor profiles. Identify the users as soon as they share their email address and offer them tailored customer service. Connect your FullContact to your account by sharing the FullContact API Key."
+      description: "FullContact-integratie helpt bezoekersprofielen te verrijken. Identificeer de gebruikers zodra ze hun e-mailadres delen en bied hen klantenservice op maat. Koppel uw FullContact aan uw account door de FullContact API Key te delen."
     google_translate:
       name: "Google Translate"
-      description: "Make it easier for agents to translate messages by adding a Google Translate Integration. Google translate helps to identify the language automatically and convert it to the language chosen by the agent/account admin."
+      description: "Maak het agenten gemakkelijker om berichten te vertalen door een Google Translate-integratie toe te voegen. Google Translate helpt de taal automatisch te identificeren en te converteren naar de taal gekozen door de agent/accountbeheerder."
     openai:
       name: "OpenAI"
-      description: "Integrate powerful AI features into Support Hub by leveraging the GPT models from OpenAI."
+      description: "Integreer krachtige AI-functies in Support Hub door gebruik te maken van de GPT-modellen van OpenAI."
   public_portal:
     search:
       search_placeholder: Search for article by title or body...
@@ -192,18 +192,18 @@ nl:
       results_title: Zoekresultaten
     toc_header: 'On this page'
     hero:
-      sub_title: Search for the articles here or browse the categories below.
+      sub_title: Zoek hier naar de artikelen of blader door de onderstaande categorieën.
     common:
       home: Startpagina
       last_updated_on: Last updated on %{last_updated_on}
-      view_all_articles: View all articles
+      view_all_articles: Bekijk alle artikelen
       article: article
       articles: articles
-      no_articles: There are no articles here
+      no_articles: Er zijn hier geen artikelen
     footer:
       made_with: Made with
     header:
-      go_to_homepage: Go to the main site
+      go_to_homepage: Ga naar de hoofdsite
   slack_unfurl:
     fields:
       name: Naam
