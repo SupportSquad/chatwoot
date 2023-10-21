@@ -252,7 +252,7 @@
       "CATEGORY_EMPTY_MESSAGE": "No categories found"
     },
     "SET_AUTO_OFFLINE": {
-      "TEXT": "Mark offline automatically",
+      "TEXT": "Automatisch offline markeren",
       "INFO_TEXT": "Laat het systeem u automatisch offline markeren wanneer u de app of het dashboard niet gebruikt."
     },
     "DOCS": "Read docs"

@@ -4,7 +4,7 @@
     "HEADER_BTN_TXT": "Een nieuwe macro toevoegen",
     "HEADER_BTN_TXT_SAVE": "Macro opslaan",
     "LOADING": "Macro's ophalen",
-    "SIDEBAR_TXT": "<p><b>Macro's</b><p>Een macro is een reeks opgeslagen acties waarmee klantenservicemedewerkers taken gemakkelijk kunnen voltooien. De agenten kunnen een reeks acties definiëren, zoals het taggen van een gesprek met een label, het verzenden van een e-mailtranscript, het bijwerken van een aangepast kenmerk, enz., en ze kunnen deze acties met één klik uitvoeren. Wanneer de agenten de macro uitvoeren, worden de acties opeenvolgend uitgevoerd in de volgorde waarin ze zijn gedefinieerd. Macro's verbeteren de productiviteit en vergroten de consistentie in acties. </p><p>Een macro kan op twee manieren nuttig zijn. </p><p><b>Als assistent van een agent:</b> Als een agent een reeks acties meerdere keren uitvoert, kan hij deze opslaan als een macro en alle acties samen uitvoeren met één enkele klik.</p><p><b> p><p><b>Als optie om een teamlid aan boord te krijgen:</b> Elke agent moet tijdens elk gesprek veel verschillende controles/acties uitvoeren. Het inwerken van een nieuw lid van het ondersteuningsteam zal eenvoudig zijn als er vooraf gedefinieerde macro's beschikbaar zijn voor het account. In plaats van elke stap in detail te beschrijven, kan de manager/teamleider verwijzen naar de macro's die in verschillende scenario's worden gebruikt.</p>",
+    "SIDEBAR_TXT": "<p><b>Macro's</b><p>Een macro is een reeks opgeslagen acties waarmee klantenservicemedewerkers taken gemakkelijk kunnen voltooien. De agenten kunnen een reeks acties definiëren, zoals het taggen van een gesprek met een label, het verzenden van een e-mailtranscript, het bijwerken van een aangepast kenmerk, enz., en ze kunnen deze acties met één klik uitvoeren. Wanneer de agenten de macro uitvoeren, worden de acties opeenvolgend uitgevoerd in de volgorde waarin ze zijn gedefinieerd. Macro's verbeteren de productiviteit en vergroten de consistentie in acties. </p><p>Een macro kan op twee manieren nuttig zijn. </p><p><b>Als assistent van een agent:</b> Als een agent een reeks acties meerdere keren uitvoert, kan hij deze opslaan als een macro en alle acties samen uitvoeren met één enkele klik.</p><p><b> <p><p><b>Als optie om een teamlid aan boord te krijgen:</b> Elke agent moet tijdens elk gesprek veel verschillende controles/acties uitvoeren. Het inwerken van een nieuw lid van het ondersteuningsteam zal eenvoudig zijn als er vooraf gedefinieerde macro's beschikbaar zijn voor het account. In plaats van elke stap in detail te beschrijven, kan de manager/teamleider verwijzen naar de macro's die in verschillende scenario's worden gebruikt.</p>",
     "ERROR": "Er is iets fout gegaan. Probeer het opnieuw",
     "ORDER_INFO": "Macro's worden uitgevoerd in de volgorde waarin u uw acties toevoegt. U kunt ze opnieuw rangschikken door ze aan het handvat naast elk knooppunt te slepen.",
     "ADD": {
@@ -30,7 +30,7 @@
         "Last updated by",
         "Zichtbaarheid"
       ],
-      "404": "No macros found"
+      "404": "Geen macros gevonden"
     },
     "DELETE": {
       "TOOLTIP": "Delete macro",
