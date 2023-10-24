@@ -726,7 +726,7 @@
         "USER_MESSAGE": "Hello",
         "AGENT_MESSAGE": "Hello"
       },
-      "BRANDING_TEXT": "Chatwoot",
+      "BRANDING_TEXT": "Support Hub",
       "SCRIPT_SETTINGS": "\nwindow.supporthubSettings = {options};"
     },
     "EMAIL_PROVIDERS": {

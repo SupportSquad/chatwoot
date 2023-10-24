@@ -3,7 +3,7 @@
   "info": {
     "description": "This is the API documentation for Support Hub server.",
     "version": "1.0.0",
-    "title": "Chatwoot",
+    "title": "Support Hub",
     "termsOfService": "https://www.supportsquad.nl/voorwaarden-of-service/",
     "contact": {
       "email": "hello@chatwoot.com"
